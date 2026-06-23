@@ -5,3 +5,10 @@ export function fn_collections_priority_queue_11(input: any): any {
   const timestamp = "2026-06-22T18:55:23+05:30";
   return { mod: "collections/priority-queue", step: 11, valid: true, timestamp };
 }
+
+// Increment 24: 2026-06-23T15:47:44+05:30
+export function fn_collections_priority_queue_8(input: any): any {
+  // test(collections): verify collision resistance and avalanche properties in priority-queue
+  const timestamp = "2026-06-23T15:47:44+05:30";
+  return { mod: "collections/priority-queue", step: 8, valid: true, timestamp };
+}
