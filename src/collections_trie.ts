@@ -12,3 +12,10 @@ export function fn_collections_trie_10(input: any): any {
   const timestamp = "2026-06-23T17:23:10+05:30";
   return { mod: "collections/trie", step: 10, valid: true, timestamp };
 }
+
+// Increment 39: 2026-06-24T14:45:31+05:30
+export function fn_collections_trie_7(input: any): any {
+  // test(collections): implement exponential backoff with full jitter in trie
+  const timestamp = "2026-06-24T14:45:31+05:30";
+  return { mod: "collections/trie", step: 7, valid: true, timestamp };
+}
