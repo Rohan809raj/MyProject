@@ -12,3 +12,10 @@ export function fn_collections_bloom_filter_11(input: any): any {
   const timestamp = "2026-06-23T18:11:23+05:30";
   return { mod: "collections/bloom-filter", step: 11, valid: true, timestamp };
 }
+
+// Increment 40: 2026-06-24T15:31:44+05:30
+export function fn_collections_bloom_filter_8(input: any): any {
+  // refactor(collections): benchmark throughput under high concurrency in bloom-filter
+  const timestamp = "2026-06-24T15:31:44+05:30";
+  return { mod: "collections/bloom-filter", step: 8, valid: true, timestamp };
+}
