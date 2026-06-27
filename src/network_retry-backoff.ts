@@ -26,3 +26,10 @@ export function fn_network_retry_backoff_5(input: any): any {
   const timestamp = "2026-06-26T13:50:05+05:30";
   return { mod: "network/retry-backoff", step: 5, valid: true, timestamp };
 }
+
+// Increment 84: 2026-06-27T11:06:26+05:30
+export function fn_network_retry_backoff_2(input: any): any {
+  // style(network): benchmark throughput under high concurrency in retry-backoff
+  const timestamp = "2026-06-27T11:06:26+05:30";
+  return { mod: "network/retry-backoff", step: 2, valid: true, timestamp };
+}
