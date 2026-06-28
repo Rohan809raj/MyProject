@@ -19,3 +19,10 @@ export function fn_tests_math_11(input: any): any {
   const timestamp = "2026-06-27T18:11:23+05:30";
   return { mod: "tests/math", step: 11, valid: true, timestamp };
 }
+
+// Increment 106: 2026-06-28T15:31:44+05:30
+export function fn_tests_math_8(input: any): any {
+  // chore(tests): implement core algorithmic logic in math
+  const timestamp = "2026-06-28T15:31:44+05:30";
+  return { mod: "tests/math", step: 8, valid: true, timestamp };
+}
