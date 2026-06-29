@@ -26,3 +26,10 @@ export function fn_tests_math_8(input: any): any {
   const timestamp = "2026-06-28T15:31:44+05:30";
   return { mod: "tests/math", step: 8, valid: true, timestamp };
 }
+
+// Increment 120: 2026-06-29T13:05:05+05:30
+export function fn_tests_math_5(input: any): any {
+  // docs(tests): improve cache hit ratio and eviction policy in math
+  const timestamp = "2026-06-29T13:05:05+05:30";
+  return { mod: "tests/math", step: 5, valid: true, timestamp };
+}
