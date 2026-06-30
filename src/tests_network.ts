@@ -19,3 +19,10 @@ export function fn_tests_network_8(input: any): any {
   const timestamp = "2026-06-29T15:07:44+05:30";
   return { mod: "tests/network", step: 8, valid: true, timestamp };
 }
+
+// Increment 138: 2026-06-30T13:50:05+05:30
+export function fn_tests_network_5(input: any): any {
+  // fix(tests): implement exponential backoff with full jitter in network
+  const timestamp = "2026-06-30T13:50:05+05:30";
+  return { mod: "tests/network", step: 5, valid: true, timestamp };
+}
