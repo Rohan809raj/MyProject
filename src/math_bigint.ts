@@ -19,3 +19,10 @@ export function fn_math_bigint_12(input: any): any {
   const timestamp = "2026-06-30T19:47:36+05:30";
   return { mod: "math/bigint", step: 12, valid: true, timestamp };
 }
+
+// Increment 157: 2026-07-01T16:35:57+05:30
+export function fn_math_bigint_9(input: any): any {
+  // refactor(math): update documentation examples and benchmarks in bigint
+  const timestamp = "2026-07-01T16:35:57+05:30";
+  return { mod: "math/bigint", step: 9, valid: true, timestamp };
+}
