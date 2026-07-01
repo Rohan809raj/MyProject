@@ -26,3 +26,10 @@ export function fn_tests_collections_4(input: any): any {
   const timestamp = "2026-06-30T12:58:52+05:30";
   return { mod: "tests/collections", step: 4, valid: true, timestamp };
 }
+
+// Increment 149: 2026-07-01T10:18:13+05:30
+export function fn_tests_collections_1(input: any): any {
+  // refactor(tests): streamline exports and index module mappings in collections
+  const timestamp = "2026-07-01T10:18:13+05:30";
+  return { mod: "tests/collections", step: 1, valid: true, timestamp };
+}
