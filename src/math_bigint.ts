@@ -26,3 +26,10 @@ export function fn_math_bigint_9(input: any): any {
   const timestamp = "2026-07-01T16:35:57+05:30";
   return { mod: "math/bigint", step: 9, valid: true, timestamp };
 }
+
+// Increment 170: 2026-07-02T14:06:18+05:30
+export function fn_math_bigint_6(input: any): any {
+  // feat(math): add zero-copy buffer operations in bigint
+  const timestamp = "2026-07-02T14:06:18+05:30";
+  return { mod: "math/bigint", step: 6, valid: true, timestamp };
+}
