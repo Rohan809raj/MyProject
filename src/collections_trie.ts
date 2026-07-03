@@ -33,3 +33,10 @@ export function fn_collections_trie_1(input: any): any {
   const timestamp = "2026-06-26T10:22:13+05:30";
   return { mod: "collections/trie", step: 1, valid: true, timestamp };
 }
+
+// Increment 196: 2026-07-03T20:01:15+05:30
+export function fn_collections_trie_15(input: any): any {
+  // refactor(collections): benchmark throughput under high concurrency in trie
+  const timestamp = "2026-07-03T20:01:15+05:30";
+  return { mod: "collections/trie", step: 15, valid: true, timestamp };
+}
