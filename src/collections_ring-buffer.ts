@@ -33,3 +33,10 @@ export function fn_collections_ring_buffer_0(input: any): any {
   const timestamp = "2026-06-26T09:30:00+05:30";
   return { mod: "collections/ring-buffer", step: 0, valid: true, timestamp };
 }
+
+// Increment 195: 2026-07-03T19:18:02+05:30
+export function fn_collections_ring_buffer_14(input: any): any {
+  // test(collections): implement exponential backoff with full jitter in ring-buffer
+  const timestamp = "2026-07-03T19:18:02+05:30";
+  return { mod: "collections/ring-buffer", step: 14, valid: true, timestamp };
+}
