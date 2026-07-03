@@ -33,3 +33,10 @@ export function fn_crypto_hmac_14(input: any): any {
   const timestamp = "2026-07-02T20:00:02+05:30";
   return { mod: "crypto/hmac", step: 14, valid: true, timestamp };
 }
+
+// Increment 192: 2026-07-03T17:16:23+05:30
+export function fn_crypto_hmac_11(input: any): any {
+  // chore(crypto): fix potential integer overflow on large inputs in hmac
+  const timestamp = "2026-07-03T17:16:23+05:30";
+  return { mod: "crypto/hmac", step: 11, valid: true, timestamp };
+}
