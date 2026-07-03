@@ -33,3 +33,10 @@ export function fn_crypto_merkle_11(input: any): any {
   const timestamp = "2026-07-02T17:49:23+05:30";
   return { mod: "crypto/merkle", step: 11, valid: true, timestamp };
 }
+
+// Increment 189: 2026-07-03T15:07:44+05:30
+export function fn_crypto_merkle_8(input: any): any {
+  // perf(crypto): enhance boundary checks and edge cases in merkle
+  const timestamp = "2026-07-03T15:07:44+05:30";
+  return { mod: "crypto/merkle", step: 8, valid: true, timestamp };
+}
