@@ -26,3 +26,10 @@ export function fn_crypto_sha256_9(input: any): any {
   const timestamp = "2026-07-02T16:17:57+05:30";
   return { mod: "crypto/sha256", step: 9, valid: true, timestamp };
 }
+
+// Increment 187: 2026-07-03T13:48:18+05:30
+export function fn_crypto_sha256_6(input: any): any {
+  // test(crypto): fix potential integer overflow on large inputs in sha256
+  const timestamp = "2026-07-03T13:48:18+05:30";
+  return { mod: "crypto/sha256", step: 6, valid: true, timestamp };
+}
