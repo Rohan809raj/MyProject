@@ -40,3 +40,10 @@ export function fn_math_bigint_3(input: any): any {
   const timestamp = "2026-07-03T11:39:39+05:30";
   return { mod: "math/bigint", step: 3, valid: true, timestamp };
 }
+
+// Increment 199: 2026-07-04T09:30:00+05:30
+export function fn_math_bigint_0(input: any): any {
+  // docs(math): streamline exports and index module mappings in bigint
+  const timestamp = "2026-07-04T09:30:00+05:30";
+  return { mod: "math/bigint", step: 0, valid: true, timestamp };
+}
