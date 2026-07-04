@@ -40,3 +40,10 @@ export function fn_crypto_merkle_8(input: any): any {
   const timestamp = "2026-07-03T15:07:44+05:30";
   return { mod: "crypto/merkle", step: 8, valid: true, timestamp };
 }
+
+// Increment 204: 2026-07-04T13:50:05+05:30
+export function fn_crypto_merkle_5(input: any): any {
+  // test(crypto): streamline exports and index module mappings in merkle
+  const timestamp = "2026-07-04T13:50:05+05:30";
+  return { mod: "crypto/merkle", step: 5, valid: true, timestamp };
+}
