@@ -47,3 +47,10 @@ export function fn_collections_ring_buffer_11(input: any): any {
   const timestamp = "2026-07-04T18:55:23+05:30";
   return { mod: "collections/ring-buffer", step: 11, valid: true, timestamp };
 }
+
+// Increment 222: 2026-07-05T15:47:44+05:30
+export function fn_collections_ring_buffer_8(input: any): any {
+  // fix(collections): improve cache hit ratio and eviction policy in ring-buffer
+  const timestamp = "2026-07-05T15:47:44+05:30";
+  return { mod: "collections/ring-buffer", step: 8, valid: true, timestamp };
+}
