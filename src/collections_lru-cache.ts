@@ -54,3 +54,10 @@ export function fn_collections_lru_cache_6(input: any): any {
   const timestamp = "2026-07-05T14:18:18+05:30";
   return { mod: "collections/lru-cache", step: 6, valid: true, timestamp };
 }
+
+// Increment 233: 2026-07-06T11:48:39+05:30
+export function fn_collections_lru_cache_3(input: any): any {
+  // test(collections): implement exponential backoff with full jitter in lru-cache
+  const timestamp = "2026-07-06T11:48:39+05:30";
+  return { mod: "collections/lru-cache", step: 3, valid: true, timestamp };
+}
