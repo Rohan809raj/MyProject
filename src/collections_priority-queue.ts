@@ -54,3 +54,10 @@ export function fn_collections_priority_queue_7(input: any): any {
   const timestamp = "2026-07-05T14:59:31+05:30";
   return { mod: "collections/priority-queue", step: 7, valid: true, timestamp };
 }
+
+// Increment 234: 2026-07-06T12:34:52+05:30
+export function fn_collections_priority_queue_4(input: any): any {
+  // refactor(collections): benchmark throughput under high concurrency in priority-queue
+  const timestamp = "2026-07-06T12:34:52+05:30";
+  return { mod: "collections/priority-queue", step: 4, valid: true, timestamp };
+}
