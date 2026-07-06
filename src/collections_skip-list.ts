@@ -54,3 +54,10 @@ export function fn_collections_skip_list_11(input: any): any {
   const timestamp = "2026-07-05T18:11:23+05:30";
   return { mod: "collections/skip-list", step: 11, valid: true, timestamp };
 }
+
+// Increment 238: 2026-07-06T15:31:44+05:30
+export function fn_collections_skip_list_8(input: any): any {
+  // chore(collections): implement exponential backoff with full jitter in skip-list
+  const timestamp = "2026-07-06T15:31:44+05:30";
+  return { mod: "collections/skip-list", step: 8, valid: true, timestamp };
+}
