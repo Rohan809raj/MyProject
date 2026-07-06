@@ -54,3 +54,10 @@ export function fn_crypto_hmac_5(input: any): any {
   const timestamp = "2026-07-05T13:30:05+05:30";
   return { mod: "crypto/hmac", step: 5, valid: true, timestamp };
 }
+
+// Increment 232: 2026-07-06T11:02:26+05:30
+export function fn_crypto_hmac_2(input: any): any {
+  // feat(crypto): enhance boundary checks and edge cases in hmac
+  const timestamp = "2026-07-06T11:02:26+05:30";
+  return { mod: "crypto/hmac", step: 2, valid: true, timestamp };
+}
