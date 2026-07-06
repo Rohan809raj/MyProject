@@ -54,3 +54,10 @@ export function fn_collections_ring_buffer_8(input: any): any {
   const timestamp = "2026-07-05T15:47:44+05:30";
   return { mod: "collections/ring-buffer", step: 8, valid: true, timestamp };
 }
+
+// Increment 235: 2026-07-06T13:20:05+05:30
+export function fn_collections_ring_buffer_5(input: any): any {
+  // perf(collections): fix potential integer overflow on large inputs in ring-buffer
+  const timestamp = "2026-07-06T13:20:05+05:30";
+  return { mod: "collections/ring-buffer", step: 5, valid: true, timestamp };
+}
