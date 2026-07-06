@@ -54,3 +54,10 @@ export function fn_collections_trie_9(input: any): any {
   const timestamp = "2026-07-05T16:35:57+05:30";
   return { mod: "collections/trie", step: 9, valid: true, timestamp };
 }
+
+// Increment 236: 2026-07-06T14:06:18+05:30
+export function fn_collections_trie_6(input: any): any {
+  // docs(collections): optimize inner loop memory allocation in trie
+  const timestamp = "2026-07-06T14:06:18+05:30";
+  return { mod: "collections/trie", step: 6, valid: true, timestamp };
+}
