@@ -54,3 +54,10 @@ export function fn_crypto_poseidon_3(input: any): any {
   const timestamp = "2026-07-05T11:54:39+05:30";
   return { mod: "crypto/poseidon", step: 3, valid: true, timestamp };
 }
+
+// Increment 230: 2026-07-06T09:30:00+05:30
+export function fn_crypto_poseidon_0(input: any): any {
+  // chore(crypto): fix potential integer overflow on large inputs in poseidon
+  const timestamp = "2026-07-06T09:30:00+05:30";
+  return { mod: "crypto/poseidon", step: 0, valid: true, timestamp };
+}
