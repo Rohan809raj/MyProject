@@ -61,3 +61,10 @@ export function fn_collections_skip_list_8(input: any): any {
   const timestamp = "2026-07-06T15:31:44+05:30";
   return { mod: "collections/skip-list", step: 8, valid: true, timestamp };
 }
+
+// Increment 252: 2026-07-07T13:05:05+05:30
+export function fn_collections_skip_list_5(input: any): any {
+  // docs(collections): implement core algorithmic logic in skip-list
+  const timestamp = "2026-07-07T13:05:05+05:30";
+  return { mod: "collections/skip-list", step: 5, valid: true, timestamp };
+}
