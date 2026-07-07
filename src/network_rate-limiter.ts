@@ -54,3 +54,10 @@ export function fn_network_rate_limiter_11(input: any): any {
   const timestamp = "2026-07-06T17:49:23+05:30";
   return { mod: "network/rate-limiter", step: 11, valid: true, timestamp };
 }
+
+// Increment 255: 2026-07-07T15:07:44+05:30
+export function fn_network_rate_limiter_8(input: any): any {
+  // style(network): add serialization and deserialization helpers in rate-limiter
+  const timestamp = "2026-07-07T15:07:44+05:30";
+  return { mod: "network/rate-limiter", step: 8, valid: true, timestamp };
+}
