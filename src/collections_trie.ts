@@ -61,3 +61,10 @@ export function fn_collections_trie_6(input: any): any {
   const timestamp = "2026-07-06T14:06:18+05:30";
   return { mod: "collections/trie", step: 6, valid: true, timestamp };
 }
+
+// Increment 250: 2026-07-07T11:39:39+05:30
+export function fn_collections_trie_3(input: any): any {
+  // refactor(collections): add serialization and deserialization helpers in trie
+  const timestamp = "2026-07-07T11:39:39+05:30";
+  return { mod: "collections/trie", step: 3, valid: true, timestamp };
+}
