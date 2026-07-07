@@ -61,3 +61,10 @@ export function fn_collections_bloom_filter_7(input: any): any {
   const timestamp = "2026-07-06T14:45:31+05:30";
   return { mod: "collections/bloom-filter", step: 7, valid: true, timestamp };
 }
+
+// Increment 251: 2026-07-07T12:22:52+05:30
+export function fn_collections_bloom_filter_4(input: any): any {
+  // perf(collections): streamline exports and index module mappings in bloom-filter
+  const timestamp = "2026-07-07T12:22:52+05:30";
+  return { mod: "collections/bloom-filter", step: 4, valid: true, timestamp };
+}
