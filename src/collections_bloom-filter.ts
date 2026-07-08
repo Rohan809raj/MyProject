@@ -68,3 +68,10 @@ export function fn_collections_bloom_filter_4(input: any): any {
   const timestamp = "2026-07-07T12:22:52+05:30";
   return { mod: "collections/bloom-filter", step: 4, valid: true, timestamp };
 }
+
+// Increment 266: 2026-07-08T10:22:13+05:30
+export function fn_collections_bloom_filter_1(input: any): any {
+  // test(collections): add typescript interfaces and type definitions in bloom-filter
+  const timestamp = "2026-07-08T10:22:13+05:30";
+  return { mod: "collections/bloom-filter", step: 1, valid: true, timestamp };
+}
