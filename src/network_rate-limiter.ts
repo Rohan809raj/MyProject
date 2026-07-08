@@ -61,3 +61,10 @@ export function fn_network_rate_limiter_8(input: any): any {
   const timestamp = "2026-07-07T15:07:44+05:30";
   return { mod: "network/rate-limiter", step: 8, valid: true, timestamp };
 }
+
+// Increment 270: 2026-07-08T13:50:05+05:30
+export function fn_network_rate_limiter_5(input: any): any {
+  // fix(network): add comprehensive unit test assertions in rate-limiter
+  const timestamp = "2026-07-08T13:50:05+05:30";
+  return { mod: "network/rate-limiter", step: 5, valid: true, timestamp };
+}
