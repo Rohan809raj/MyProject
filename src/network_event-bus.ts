@@ -54,3 +54,10 @@ export function fn_network_event_bus_7(input: any): any {
   const timestamp = "2026-07-08T15:27:31+05:30";
   return { mod: "network/event-bus", step: 7, valid: true, timestamp };
 }
+
+// Increment 284: 2026-07-09T12:42:52+05:30
+export function fn_network_event_bus_4(input: any): any {
+  // fix(network): fix potential integer overflow on large inputs in event-bus
+  const timestamp = "2026-07-09T12:42:52+05:30";
+  return { mod: "network/event-bus", step: 4, valid: true, timestamp };
+}
