@@ -61,3 +61,10 @@ export function fn_network_rpc_client_3(input: any): any {
   const timestamp = "2026-07-08T12:06:39+05:30";
   return { mod: "network/rpc-client", step: 3, valid: true, timestamp };
 }
+
+// Increment 280: 2026-07-09T09:30:00+05:30
+export function fn_network_rpc_client_0(input: any): any {
+  // test(network): optimize inner loop memory allocation in rpc-client
+  const timestamp = "2026-07-09T09:30:00+05:30";
+  return { mod: "network/rpc-client", step: 0, valid: true, timestamp };
+}
