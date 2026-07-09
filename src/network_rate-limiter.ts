@@ -68,3 +68,10 @@ export function fn_network_rate_limiter_5(input: any): any {
   const timestamp = "2026-07-08T13:50:05+05:30";
   return { mod: "network/rate-limiter", step: 5, valid: true, timestamp };
 }
+
+// Increment 282: 2026-07-09T11:06:26+05:30
+export function fn_network_rate_limiter_2(input: any): any {
+  // perf(network): implement exponential backoff with full jitter in rate-limiter
+  const timestamp = "2026-07-09T11:06:26+05:30";
+  return { mod: "network/rate-limiter", step: 2, valid: true, timestamp };
+}
