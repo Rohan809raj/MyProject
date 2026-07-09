@@ -54,3 +54,10 @@ export function fn_utils_formatter_12(input: any): any {
   const timestamp = "2026-07-08T19:47:36+05:30";
   return { mod: "utils/formatter", step: 12, valid: true, timestamp };
 }
+
+// Increment 289: 2026-07-09T16:35:57+05:30
+export function fn_utils_formatter_9(input: any): any {
+  // refactor(utils): fix potential integer overflow on large inputs in formatter
+  const timestamp = "2026-07-09T16:35:57+05:30";
+  return { mod: "utils/formatter", step: 9, valid: true, timestamp };
+}
