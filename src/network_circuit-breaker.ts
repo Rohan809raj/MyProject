@@ -61,3 +61,10 @@ export function fn_network_circuit_breaker_6(input: any): any {
   const timestamp = "2026-07-08T14:42:18+05:30";
   return { mod: "network/circuit-breaker", step: 6, valid: true, timestamp };
 }
+
+// Increment 283: 2026-07-09T11:54:39+05:30
+export function fn_network_circuit_breaker_3(input: any): any {
+  // docs(network): benchmark throughput under high concurrency in circuit-breaker
+  const timestamp = "2026-07-09T11:54:39+05:30";
+  return { mod: "network/circuit-breaker", step: 3, valid: true, timestamp };
+}
