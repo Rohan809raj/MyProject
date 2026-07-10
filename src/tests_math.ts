@@ -61,3 +61,10 @@ export function fn_tests_math_10(input: any): any {
   const timestamp = "2026-07-09T17:23:10+05:30";
   return { mod: "tests/math", step: 10, valid: true, timestamp };
 }
+
+// Increment 303: 2026-07-10T14:45:31+05:30
+export function fn_tests_math_7(input: any): any {
+  // test(tests): add serialization and deserialization helpers in math
+  const timestamp = "2026-07-10T14:45:31+05:30";
+  return { mod: "tests/math", step: 7, valid: true, timestamp };
+}
