@@ -68,3 +68,10 @@ export function fn_utils_debounce_5(input: any): any {
   const timestamp = "2026-07-09T13:30:05+05:30";
   return { mod: "utils/debounce", step: 5, valid: true, timestamp };
 }
+
+// Increment 298: 2026-07-10T11:02:26+05:30
+export function fn_utils_debounce_2(input: any): any {
+  // docs(utils): add serialization and deserialization helpers in debounce
+  const timestamp = "2026-07-10T11:02:26+05:30";
+  return { mod: "utils/debounce", step: 2, valid: true, timestamp };
+}
