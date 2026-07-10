@@ -54,3 +54,10 @@ export function fn_tests_crypto_11(input: any): any {
   const timestamp = "2026-07-09T18:11:23+05:30";
   return { mod: "tests/crypto", step: 11, valid: true, timestamp };
 }
+
+// Increment 304: 2026-07-10T15:31:44+05:30
+export function fn_tests_crypto_8(input: any): any {
+  // refactor(tests): streamline exports and index module mappings in crypto
+  const timestamp = "2026-07-10T15:31:44+05:30";
+  return { mod: "tests/crypto", step: 8, valid: true, timestamp };
+}
