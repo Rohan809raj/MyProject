@@ -47,3 +47,10 @@ export function fn_docs_tutorials_15(input: any): any {
   const timestamp = "2026-07-10T20:46:15+05:30";
   return { mod: "docs/tutorials", step: 15, valid: true, timestamp };
 }
+
+// Increment 325: 2026-07-11T17:59:36+05:30
+export function fn_docs_tutorials_12(input: any): any {
+  // style(docs): verify collision resistance and avalanche properties in tutorials
+  const timestamp = "2026-07-11T17:59:36+05:30";
+  return { mod: "docs/tutorials", step: 12, valid: true, timestamp };
+}
