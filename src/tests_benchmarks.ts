@@ -54,3 +54,10 @@ export function fn_tests_benchmarks_11(input: any): any {
   const timestamp = "2026-07-10T17:49:23+05:30";
   return { mod: "tests/benchmarks", step: 11, valid: true, timestamp };
 }
+
+// Increment 321: 2026-07-11T15:07:44+05:30
+export function fn_tests_benchmarks_8(input: any): any {
+  // perf(tests): add zero-copy buffer operations in benchmarks
+  const timestamp = "2026-07-11T15:07:44+05:30";
+  return { mod: "tests/benchmarks", step: 8, valid: true, timestamp };
+}
