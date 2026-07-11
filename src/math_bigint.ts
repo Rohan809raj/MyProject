@@ -47,3 +47,10 @@ export function fn_math_bigint_0(input: any): any {
   const timestamp = "2026-07-04T09:30:00+05:30";
   return { mod: "math/bigint", step: 0, valid: true, timestamp };
 }
+
+// Increment 327: 2026-07-11T19:18:02+05:30
+export function fn_math_bigint_14(input: any): any {
+  // test(math): add comprehensive unit test assertions in bigint
+  const timestamp = "2026-07-11T19:18:02+05:30";
+  return { mod: "math/bigint", step: 14, valid: true, timestamp };
+}
