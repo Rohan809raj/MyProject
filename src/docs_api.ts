@@ -47,3 +47,10 @@ export function fn_docs_api_10(input: any): any {
   const timestamp = "2026-07-11T16:33:10+05:30";
   return { mod: "docs/api", step: 10, valid: true, timestamp };
 }
+
+// Increment 338: 2026-07-12T15:27:31+05:30
+export function fn_docs_api_7(input: any): any {
+  // perf(docs): benchmark throughput under high concurrency in api
+  const timestamp = "2026-07-12T15:27:31+05:30";
+  return { mod: "docs/api", step: 7, valid: true, timestamp };
+}
