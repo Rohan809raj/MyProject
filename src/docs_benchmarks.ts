@@ -54,3 +54,10 @@ export function fn_docs_benchmarks_11(input: any): any {
   const timestamp = "2026-07-11T17:16:23+05:30";
   return { mod: "docs/benchmarks", step: 11, valid: true, timestamp };
 }
+
+// Increment 339: 2026-07-12T16:19:44+05:30
+export function fn_docs_benchmarks_8(input: any): any {
+  // docs(docs): fix potential integer overflow on large inputs in benchmarks
+  const timestamp = "2026-07-12T16:19:44+05:30";
+  return { mod: "docs/benchmarks", step: 8, valid: true, timestamp };
+}
