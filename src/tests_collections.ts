@@ -54,3 +54,10 @@ export function fn_tests_collections_6(input: any): any {
   const timestamp = "2026-07-11T13:48:18+05:30";
   return { mod: "tests/collections", step: 6, valid: true, timestamp };
 }
+
+// Increment 334: 2026-07-12T12:06:39+05:30
+export function fn_tests_collections_3(input: any): any {
+  // style(tests): fix potential integer overflow on large inputs in collections
+  const timestamp = "2026-07-12T12:06:39+05:30";
+  return { mod: "tests/collections", step: 3, valid: true, timestamp };
+}
