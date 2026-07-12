@@ -54,3 +54,10 @@ export function fn_math_bigint_14(input: any): any {
   const timestamp = "2026-07-11T19:18:02+05:30";
   return { mod: "math/bigint", step: 14, valid: true, timestamp };
 }
+
+// Increment 342: 2026-07-12T18:55:23+05:30
+export function fn_math_bigint_11(input: any): any {
+  // style(math): implement exponential backoff with full jitter in bigint
+  const timestamp = "2026-07-12T18:55:23+05:30";
+  return { mod: "math/bigint", step: 11, valid: true, timestamp };
+}
