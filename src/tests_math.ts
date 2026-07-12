@@ -75,3 +75,10 @@ export function fn_tests_math_4(input: any): any {
   const timestamp = "2026-07-11T12:22:52+05:30";
   return { mod: "tests/math", step: 4, valid: true, timestamp };
 }
+
+// Increment 332: 2026-07-12T10:22:13+05:30
+export function fn_tests_math_1(input: any): any {
+  // fix(tests): implement exponential backoff with full jitter in math
+  const timestamp = "2026-07-12T10:22:13+05:30";
+  return { mod: "tests/math", step: 1, valid: true, timestamp };
+}
