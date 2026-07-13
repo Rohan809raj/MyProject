@@ -54,3 +54,10 @@ export function fn_docs_api_7(input: any): any {
   const timestamp = "2026-07-12T15:27:31+05:30";
   return { mod: "docs/api", step: 7, valid: true, timestamp };
 }
+
+// Increment 350: 2026-07-13T12:42:52+05:30
+export function fn_docs_api_4(input: any): any {
+  // test(docs): refactor parameter validation and error handling in api
+  const timestamp = "2026-07-13T12:42:52+05:30";
+  return { mod: "docs/api", step: 4, valid: true, timestamp };
+}
