@@ -68,3 +68,10 @@ export function fn_math_bigint_8(input: any): any {
   const timestamp = "2026-07-13T15:47:44+05:30";
   return { mod: "math/bigint", step: 8, valid: true, timestamp };
 }
+
+// Increment 367: 2026-07-14T13:20:05+05:30
+export function fn_math_bigint_5(input: any): any {
+  // perf(math): improve cache hit ratio and eviction policy in bigint
+  const timestamp = "2026-07-14T13:20:05+05:30";
+  return { mod: "math/bigint", step: 5, valid: true, timestamp };
+}
