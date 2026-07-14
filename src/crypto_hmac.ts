@@ -61,3 +61,10 @@ export function fn_crypto_hmac_2(input: any): any {
   const timestamp = "2026-07-06T11:02:26+05:30";
   return { mod: "crypto/hmac", step: 2, valid: true, timestamp };
 }
+
+// Increment 375: 2026-07-14T19:21:49+05:30
+export function fn_crypto_hmac_13(input: any): any {
+  // perf(crypto): add comprehensive unit test assertions in hmac
+  const timestamp = "2026-07-14T19:21:49+05:30";
+  return { mod: "crypto/hmac", step: 13, valid: true, timestamp };
+}
