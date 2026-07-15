@@ -75,3 +75,10 @@ export function fn_math_bigint_5(input: any): any {
   const timestamp = "2026-07-14T13:20:05+05:30";
   return { mod: "math/bigint", step: 5, valid: true, timestamp };
 }
+
+// Increment 381: 2026-07-15T10:56:26+05:30
+export function fn_math_bigint_2(input: any): any {
+  // test(math): fix potential integer overflow on large inputs in bigint
+  const timestamp = "2026-07-15T10:56:26+05:30";
+  return { mod: "math/bigint", step: 2, valid: true, timestamp };
+}
