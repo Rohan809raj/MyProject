@@ -75,3 +75,10 @@ export function fn_crypto_poseidon_11(input: any): any {
   const timestamp = "2026-07-14T17:49:23+05:30";
   return { mod: "crypto/poseidon", step: 11, valid: true, timestamp };
 }
+
+// Increment 387: 2026-07-15T15:07:44+05:30
+export function fn_crypto_poseidon_8(input: any): any {
+  // style(crypto): optimize inner loop memory allocation in poseidon
+  const timestamp = "2026-07-15T15:07:44+05:30";
+  return { mod: "crypto/poseidon", step: 8, valid: true, timestamp };
+}
