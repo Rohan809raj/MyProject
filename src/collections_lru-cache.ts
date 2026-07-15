@@ -75,3 +75,10 @@ export function fn_collections_lru_cache_14(input: any): any {
   const timestamp = "2026-07-14T20:00:02+05:30";
   return { mod: "collections/lru-cache", step: 14, valid: true, timestamp };
 }
+
+// Increment 390: 2026-07-15T17:16:23+05:30
+export function fn_collections_lru_cache_11(input: any): any {
+  // refactor(collections): benchmark throughput under high concurrency in lru-cache
+  const timestamp = "2026-07-15T17:16:23+05:30";
+  return { mod: "collections/lru-cache", step: 11, valid: true, timestamp };
+}
