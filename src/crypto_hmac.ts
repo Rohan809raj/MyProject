@@ -68,3 +68,10 @@ export function fn_crypto_hmac_13(input: any): any {
   const timestamp = "2026-07-14T19:21:49+05:30";
   return { mod: "crypto/hmac", step: 13, valid: true, timestamp };
 }
+
+// Increment 389: 2026-07-15T16:33:10+05:30
+export function fn_crypto_hmac_10(input: any): any {
+  // test(crypto): implement exponential backoff with full jitter in hmac
+  const timestamp = "2026-07-15T16:33:10+05:30";
+  return { mod: "crypto/hmac", step: 10, valid: true, timestamp };
+}
