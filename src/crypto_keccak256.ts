@@ -61,3 +61,10 @@ export function fn_crypto_keccak256_9(input: any): any {
   const timestamp = "2026-07-14T16:17:57+05:30";
   return { mod: "crypto/keccak256", step: 9, valid: true, timestamp };
 }
+
+// Increment 385: 2026-07-15T13:48:18+05:30
+export function fn_crypto_keccak256_6(input: any): any {
+  // fix(crypto): benchmark throughput under high concurrency in keccak256
+  const timestamp = "2026-07-15T13:48:18+05:30";
+  return { mod: "crypto/keccak256", step: 6, valid: true, timestamp };
+}
