@@ -75,3 +75,10 @@ export function fn_crypto_sha256_8(input: any): any {
   const timestamp = "2026-07-14T15:31:44+05:30";
   return { mod: "crypto/sha256", step: 8, valid: true, timestamp };
 }
+
+// Increment 384: 2026-07-15T13:05:05+05:30
+export function fn_crypto_sha256_5(input: any): any {
+  // docs(crypto): implement exponential backoff with full jitter in sha256
+  const timestamp = "2026-07-15T13:05:05+05:30";
+  return { mod: "crypto/sha256", step: 5, valid: true, timestamp };
+}
