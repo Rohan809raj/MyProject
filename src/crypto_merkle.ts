@@ -68,3 +68,10 @@ export function fn_crypto_merkle_10(input: any): any {
   const timestamp = "2026-07-14T17:03:10+05:30";
   return { mod: "crypto/merkle", step: 10, valid: true, timestamp };
 }
+
+// Increment 386: 2026-07-15T14:24:31+05:30
+export function fn_crypto_merkle_7(input: any): any {
+  // chore(crypto): fix potential integer overflow on large inputs in merkle
+  const timestamp = "2026-07-15T14:24:31+05:30";
+  return { mod: "crypto/merkle", step: 7, valid: true, timestamp };
+}
