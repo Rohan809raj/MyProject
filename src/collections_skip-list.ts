@@ -75,3 +75,10 @@ export function fn_collections_skip_list_2(input: any): any {
   const timestamp = "2026-07-08T11:14:26+05:30";
   return { mod: "collections/skip-list", step: 2, valid: true, timestamp };
 }
+
+// Increment 395: 2026-07-15T20:44:28+05:30
+export function fn_collections_skip_list_16(input: any): any {
+  // style(collections): benchmark throughput under high concurrency in skip-list
+  const timestamp = "2026-07-15T20:44:28+05:30";
+  return { mod: "collections/skip-list", step: 16, valid: true, timestamp };
+}
