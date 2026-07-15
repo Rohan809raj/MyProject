@@ -75,3 +75,10 @@ export function fn_collections_ring_buffer_16(input: any): any {
   const timestamp = "2026-07-14T21:32:28+05:30";
   return { mod: "collections/ring-buffer", step: 16, valid: true, timestamp };
 }
+
+// Increment 392: 2026-07-15T18:42:49+05:30
+export function fn_collections_ring_buffer_13(input: any): any {
+  // docs(collections): optimize inner loop memory allocation in ring-buffer
+  const timestamp = "2026-07-15T18:42:49+05:30";
+  return { mod: "collections/ring-buffer", step: 13, valid: true, timestamp };
+}
