@@ -75,3 +75,10 @@ export function fn_crypto_merkle_7(input: any): any {
   const timestamp = "2026-07-15T14:24:31+05:30";
   return { mod: "crypto/merkle", step: 7, valid: true, timestamp };
 }
+
+// Increment 401: 2026-07-16T12:58:52+05:30
+export function fn_crypto_merkle_4(input: any): any {
+  // docs(crypto): update documentation examples and benchmarks in merkle
+  const timestamp = "2026-07-16T12:58:52+05:30";
+  return { mod: "crypto/merkle", step: 4, valid: true, timestamp };
+}
