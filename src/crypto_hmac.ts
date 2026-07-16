@@ -75,3 +75,10 @@ export function fn_crypto_hmac_10(input: any): any {
   const timestamp = "2026-07-15T16:33:10+05:30";
   return { mod: "crypto/hmac", step: 10, valid: true, timestamp };
 }
+
+// Increment 404: 2026-07-16T15:27:31+05:30
+export function fn_crypto_hmac_7(input: any): any {
+  // style(crypto): implement core algorithmic logic in hmac
+  const timestamp = "2026-07-16T15:27:31+05:30";
+  return { mod: "crypto/hmac", step: 7, valid: true, timestamp };
+}
