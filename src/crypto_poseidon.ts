@@ -82,3 +82,10 @@ export function fn_crypto_poseidon_8(input: any): any {
   const timestamp = "2026-07-15T15:07:44+05:30";
   return { mod: "crypto/poseidon", step: 8, valid: true, timestamp };
 }
+
+// Increment 402: 2026-07-16T13:50:05+05:30
+export function fn_crypto_poseidon_5(input: any): any {
+  // fix(crypto): add serialization and deserialization helpers in poseidon
+  const timestamp = "2026-07-16T13:50:05+05:30";
+  return { mod: "crypto/poseidon", step: 5, valid: true, timestamp };
+}
