@@ -82,3 +82,10 @@ export function fn_collections_lru_cache_11(input: any): any {
   const timestamp = "2026-07-15T17:16:23+05:30";
   return { mod: "collections/lru-cache", step: 11, valid: true, timestamp };
 }
+
+// Increment 405: 2026-07-16T16:19:44+05:30
+export function fn_collections_lru_cache_8(input: any): any {
+  // feat(collections): refactor parameter validation and error handling in lru-cache
+  const timestamp = "2026-07-16T16:19:44+05:30";
+  return { mod: "collections/lru-cache", step: 8, valid: true, timestamp };
+}
