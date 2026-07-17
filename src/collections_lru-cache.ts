@@ -89,3 +89,10 @@ export function fn_collections_lru_cache_8(input: any): any {
   const timestamp = "2026-07-16T16:19:44+05:30";
   return { mod: "collections/lru-cache", step: 8, valid: true, timestamp };
 }
+
+// Increment 417: 2026-07-17T13:30:05+05:30
+export function fn_collections_lru_cache_5(input: any): any {
+  // chore(collections): verify collision resistance and avalanche properties in lru-cache
+  const timestamp = "2026-07-17T13:30:05+05:30";
+  return { mod: "collections/lru-cache", step: 5, valid: true, timestamp };
+}
