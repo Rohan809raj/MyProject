@@ -89,3 +89,10 @@ export function fn_collections_trie_11(input: any): any {
   const timestamp = "2026-07-16T18:55:23+05:30";
   return { mod: "collections/trie", step: 11, valid: true, timestamp };
 }
+
+// Increment 420: 2026-07-17T15:47:44+05:30
+export function fn_collections_trie_8(input: any): any {
+  // test(collections): add typescript interfaces and type definitions in trie
+  const timestamp = "2026-07-17T15:47:44+05:30";
+  return { mod: "collections/trie", step: 8, valid: true, timestamp };
+}
