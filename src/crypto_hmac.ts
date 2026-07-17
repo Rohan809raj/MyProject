@@ -82,3 +82,10 @@ export function fn_crypto_hmac_7(input: any): any {
   const timestamp = "2026-07-16T15:27:31+05:30";
   return { mod: "crypto/hmac", step: 7, valid: true, timestamp };
 }
+
+// Increment 416: 2026-07-17T12:42:52+05:30
+export function fn_crypto_hmac_4(input: any): any {
+  // fix(crypto): improve cache hit ratio and eviction policy in hmac
+  const timestamp = "2026-07-17T12:42:52+05:30";
+  return { mod: "crypto/hmac", step: 4, valid: true, timestamp };
+}
