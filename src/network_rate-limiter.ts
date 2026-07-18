@@ -82,3 +82,10 @@ export function fn_network_rate_limiter_13(input: any): any {
   const timestamp = "2026-07-17T19:47:49+05:30";
   return { mod: "network/rate-limiter", step: 13, valid: true, timestamp };
 }
+
+// Increment 438: 2026-07-18T17:03:10+05:30
+export function fn_network_rate_limiter_10(input: any): any {
+  // docs(network): benchmark throughput under high concurrency in rate-limiter
+  const timestamp = "2026-07-18T17:03:10+05:30";
+  return { mod: "network/rate-limiter", step: 10, valid: true, timestamp };
+}
