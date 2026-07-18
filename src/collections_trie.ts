@@ -96,3 +96,10 @@ export function fn_collections_trie_8(input: any): any {
   const timestamp = "2026-07-17T15:47:44+05:30";
   return { mod: "collections/trie", step: 8, valid: true, timestamp };
 }
+
+// Increment 433: 2026-07-18T13:20:05+05:30
+export function fn_collections_trie_5(input: any): any {
+  // style(collections): benchmark throughput under high concurrency in trie
+  const timestamp = "2026-07-18T13:20:05+05:30";
+  return { mod: "collections/trie", step: 5, valid: true, timestamp };
+}
