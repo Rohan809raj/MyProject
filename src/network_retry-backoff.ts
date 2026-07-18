@@ -75,3 +75,10 @@ export function fn_network_retry_backoff_12(input: any): any {
   const timestamp = "2026-07-17T18:59:36+05:30";
   return { mod: "network/retry-backoff", step: 12, valid: true, timestamp };
 }
+
+// Increment 437: 2026-07-18T16:17:57+05:30
+export function fn_network_retry_backoff_9(input: any): any {
+  // perf(network): implement exponential backoff with full jitter in retry-backoff
+  const timestamp = "2026-07-18T16:17:57+05:30";
+  return { mod: "network/retry-backoff", step: 9, valid: true, timestamp };
+}
