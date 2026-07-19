@@ -82,3 +82,10 @@ export function fn_utils_debounce_13(input: any): any {
   const timestamp = "2026-07-18T19:21:49+05:30";
   return { mod: "utils/debounce", step: 13, valid: true, timestamp };
 }
+
+// Increment 455: 2026-07-19T16:33:10+05:30
+export function fn_utils_debounce_10(input: any): any {
+  // fix(utils): streamline exports and index module mappings in debounce
+  const timestamp = "2026-07-19T16:33:10+05:30";
+  return { mod: "utils/debounce", step: 10, valid: true, timestamp };
+}
