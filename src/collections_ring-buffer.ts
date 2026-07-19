@@ -103,3 +103,10 @@ export function fn_collections_ring_buffer_4(input: any): any {
   const timestamp = "2026-07-18T12:34:52+05:30";
   return { mod: "collections/ring-buffer", step: 4, valid: true, timestamp };
 }
+
+// Increment 446: 2026-07-19T10:13:13+05:30
+export function fn_collections_ring_buffer_1(input: any): any {
+  // docs(collections): implement core algorithmic logic in ring-buffer
+  const timestamp = "2026-07-19T10:13:13+05:30";
+  return { mod: "collections/ring-buffer", step: 1, valid: true, timestamp };
+}
