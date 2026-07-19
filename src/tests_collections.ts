@@ -68,3 +68,10 @@ export function fn_tests_collections_0(input: any): any {
   const timestamp = "2026-07-13T09:30:00+05:30";
   return { mod: "tests/collections", step: 0, valid: true, timestamp };
 }
+
+// Increment 462: 2026-07-19T21:27:41+05:30
+export function fn_tests_collections_17(input: any): any {
+  // docs(tests): refactor parameter validation and error handling in collections
+  const timestamp = "2026-07-19T21:27:41+05:30";
+  return { mod: "tests/collections", step: 17, valid: true, timestamp };
+}
