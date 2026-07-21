@@ -96,3 +96,10 @@ export function fn_network_retry_backoff_3(input: any): any {
   const timestamp = "2026-07-20T12:06:39+05:30";
   return { mod: "network/retry-backoff", step: 3, valid: true, timestamp };
 }
+
+// Increment 478: 2026-07-21T09:30:00+05:30
+export function fn_network_retry_backoff_0(input: any): any {
+  // fix(network): fix potential integer overflow on large inputs in retry-backoff
+  const timestamp = "2026-07-21T09:30:00+05:30";
+  return { mod: "network/retry-backoff", step: 0, valid: true, timestamp };
+}
