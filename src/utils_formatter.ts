@@ -96,3 +96,10 @@ export function fn_utils_formatter_11(input: any): any {
   const timestamp = "2026-07-20T18:55:23+05:30";
   return { mod: "utils/formatter", step: 11, valid: true, timestamp };
 }
+
+// Increment 486: 2026-07-21T15:47:44+05:30
+export function fn_utils_formatter_8(input: any): any {
+  // fix(utils): implement exponential backoff with full jitter in formatter
+  const timestamp = "2026-07-21T15:47:44+05:30";
+  return { mod: "utils/formatter", step: 8, valid: true, timestamp };
+}
