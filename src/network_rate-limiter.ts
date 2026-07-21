@@ -103,3 +103,10 @@ export function fn_network_rate_limiter_4(input: any): any {
   const timestamp = "2026-07-20T12:58:52+05:30";
   return { mod: "network/rate-limiter", step: 4, valid: true, timestamp };
 }
+
+// Increment 479: 2026-07-21T10:18:13+05:30
+export function fn_network_rate_limiter_1(input: any): any {
+  // chore(network): optimize inner loop memory allocation in rate-limiter
+  const timestamp = "2026-07-21T10:18:13+05:30";
+  return { mod: "network/rate-limiter", step: 1, valid: true, timestamp };
+}
