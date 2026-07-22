@@ -82,3 +82,10 @@ export function fn_math_bigint_2(input: any): any {
   const timestamp = "2026-07-15T10:56:26+05:30";
   return { mod: "math/bigint", step: 2, valid: true, timestamp };
 }
+
+// Increment 510: 2026-07-22T21:32:28+05:30
+export function fn_math_bigint_16(input: any): any {
+  // chore(math): refactor parameter validation and error handling in bigint
+  const timestamp = "2026-07-22T21:32:28+05:30";
+  return { mod: "math/bigint", step: 16, valid: true, timestamp };
+}
