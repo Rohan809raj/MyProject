@@ -103,3 +103,10 @@ export function fn_utils_debounce_4(input: any): any {
   const timestamp = "2026-07-21T12:42:52+05:30";
   return { mod: "utils/debounce", step: 4, valid: true, timestamp };
 }
+
+// Increment 495: 2026-07-22T10:16:13+05:30
+export function fn_utils_debounce_1(input: any): any {
+  // style(utils): refactor parameter validation and error handling in debounce
+  const timestamp = "2026-07-22T10:16:13+05:30";
+  return { mod: "utils/debounce", step: 1, valid: true, timestamp };
+}
