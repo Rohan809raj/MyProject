@@ -75,3 +75,10 @@ export function fn_docs_benchmarks_2(input: any): any {
   const timestamp = "2026-07-14T11:02:26+05:30";
   return { mod: "docs/benchmarks", step: 2, valid: true, timestamp };
 }
+
+// Increment 507: 2026-07-22T19:21:49+05:30
+export function fn_docs_benchmarks_13(input: any): any {
+  // perf(docs): add serialization and deserialization helpers in benchmarks
+  const timestamp = "2026-07-22T19:21:49+05:30";
+  return { mod: "docs/benchmarks", step: 13, valid: true, timestamp };
+}
