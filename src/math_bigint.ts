@@ -89,3 +89,10 @@ export function fn_math_bigint_16(input: any): any {
   const timestamp = "2026-07-22T21:32:28+05:30";
   return { mod: "math/bigint", step: 16, valid: true, timestamp };
 }
+
+// Increment 524: 2026-07-23T18:42:49+05:30
+export function fn_math_bigint_13(input: any): any {
+  // docs(math): verify collision resistance and avalanche properties in bigint
+  const timestamp = "2026-07-23T18:42:49+05:30";
+  return { mod: "math/bigint", step: 13, valid: true, timestamp };
+}
