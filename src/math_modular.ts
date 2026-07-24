@@ -96,3 +96,10 @@ export function fn_math_modular_12(input: any): any {
   const timestamp = "2026-07-23T17:59:36+05:30";
   return { mod: "math/modular", step: 12, valid: true, timestamp };
 }
+
+// Increment 538: 2026-07-24T17:11:57+05:30
+export function fn_math_modular_9(input: any): any {
+  // test(math): fix potential integer overflow on large inputs in modular
+  const timestamp = "2026-07-24T17:11:57+05:30";
+  return { mod: "math/modular", step: 9, valid: true, timestamp };
+}
