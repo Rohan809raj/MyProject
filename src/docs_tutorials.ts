@@ -96,3 +96,10 @@ export function fn_docs_tutorials_11(input: any): any {
   const timestamp = "2026-07-23T17:16:23+05:30";
   return { mod: "docs/tutorials", step: 11, valid: true, timestamp };
 }
+
+// Increment 537: 2026-07-24T16:19:44+05:30
+export function fn_docs_tutorials_8(input: any): any {
+  // feat(docs): benchmark throughput under high concurrency in tutorials
+  const timestamp = "2026-07-24T16:19:44+05:30";
+  return { mod: "docs/tutorials", step: 8, valid: true, timestamp };
+}
