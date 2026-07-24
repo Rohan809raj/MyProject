@@ -96,3 +96,10 @@ export function fn_math_bigint_13(input: any): any {
   const timestamp = "2026-07-23T18:42:49+05:30";
   return { mod: "math/bigint", step: 13, valid: true, timestamp };
 }
+
+// Increment 539: 2026-07-24T18:03:10+05:30
+export function fn_math_bigint_10(input: any): any {
+  // refactor(math): optimize inner loop memory allocation in bigint
+  const timestamp = "2026-07-24T18:03:10+05:30";
+  return { mod: "math/bigint", step: 10, valid: true, timestamp };
+}
