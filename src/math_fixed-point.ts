@@ -103,3 +103,10 @@ export function fn_math_fixed_point_15(input: any): any {
   const timestamp = "2026-07-23T20:01:15+05:30";
   return { mod: "math/fixed-point", step: 15, valid: true, timestamp };
 }
+
+// Increment 541: 2026-07-24T19:47:36+05:30
+export function fn_math_fixed_point_12(input: any): any {
+  // docs(math): implement exponential backoff with full jitter in fixed-point
+  const timestamp = "2026-07-24T19:47:36+05:30";
+  return { mod: "math/fixed-point", step: 12, valid: true, timestamp };
+}
