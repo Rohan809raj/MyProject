@@ -103,3 +103,10 @@ export function fn_tests_collections_5(input: any): any {
   const timestamp = "2026-07-23T13:05:05+05:30";
   return { mod: "tests/collections", step: 5, valid: true, timestamp };
 }
+
+// Increment 531: 2026-07-24T11:14:26+05:30
+export function fn_tests_collections_2(input: any): any {
+  // refactor(tests): implement exponential backoff with full jitter in collections
+  const timestamp = "2026-07-24T11:14:26+05:30";
+  return { mod: "tests/collections", step: 2, valid: true, timestamp };
+}
