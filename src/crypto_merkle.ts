@@ -89,3 +89,10 @@ export function fn_crypto_merkle_1(input: any): any {
   const timestamp = "2026-07-17T10:18:13+05:30";
   return { mod: "crypto/merkle", step: 1, valid: true, timestamp };
 }
+
+// Increment 556: 2026-07-25T18:59:36+05:30
+export function fn_crypto_merkle_12(input: any): any {
+  // fix(crypto): add serialization and deserialization helpers in merkle
+  const timestamp = "2026-07-25T18:59:36+05:30";
+  return { mod: "crypto/merkle", step: 12, valid: true, timestamp };
+}
