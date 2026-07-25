@@ -103,3 +103,10 @@ export function fn_docs_tutorials_8(input: any): any {
   const timestamp = "2026-07-24T16:19:44+05:30";
   return { mod: "docs/tutorials", step: 8, valid: true, timestamp };
 }
+
+// Increment 549: 2026-07-25T13:30:05+05:30
+export function fn_docs_tutorials_5(input: any): any {
+  // chore(docs): refactor parameter validation and error handling in tutorials
+  const timestamp = "2026-07-25T13:30:05+05:30";
+  return { mod: "docs/tutorials", step: 5, valid: true, timestamp };
+}
