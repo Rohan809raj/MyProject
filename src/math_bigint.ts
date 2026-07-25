@@ -103,3 +103,10 @@ export function fn_math_bigint_10(input: any): any {
   const timestamp = "2026-07-24T18:03:10+05:30";
   return { mod: "math/bigint", step: 10, valid: true, timestamp };
 }
+
+// Increment 551: 2026-07-25T14:59:31+05:30
+export function fn_math_bigint_7(input: any): any {
+  // feat(math): add serialization and deserialization helpers in bigint
+  const timestamp = "2026-07-25T14:59:31+05:30";
+  return { mod: "math/bigint", step: 7, valid: true, timestamp };
+}
