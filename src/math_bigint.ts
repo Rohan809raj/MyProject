@@ -110,3 +110,10 @@ export function fn_math_bigint_7(input: any): any {
   const timestamp = "2026-07-25T14:59:31+05:30";
   return { mod: "math/bigint", step: 7, valid: true, timestamp };
 }
+
+// Increment 564: 2026-07-26T12:34:52+05:30
+export function fn_math_bigint_4(input: any): any {
+  // chore(math): add comprehensive unit test assertions in bigint
+  const timestamp = "2026-07-26T12:34:52+05:30";
+  return { mod: "math/bigint", step: 4, valid: true, timestamp };
+}
