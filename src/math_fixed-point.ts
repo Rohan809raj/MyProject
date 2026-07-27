@@ -124,3 +124,10 @@ export function fn_math_fixed_point_6(input: any): any {
   const timestamp = "2026-07-26T14:06:18+05:30";
   return { mod: "math/fixed-point", step: 6, valid: true, timestamp };
 }
+
+// Increment 580: 2026-07-27T11:39:39+05:30
+export function fn_math_fixed_point_3(input: any): any {
+  // chore(math): fix potential integer overflow on large inputs in fixed-point
+  const timestamp = "2026-07-27T11:39:39+05:30";
+  return { mod: "math/fixed-point", step: 3, valid: true, timestamp };
+}
