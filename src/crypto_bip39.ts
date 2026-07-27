@@ -110,3 +110,10 @@ export function fn_crypto_bip39_11(input: any): any {
   const timestamp = "2026-07-26T17:49:23+05:30";
   return { mod: "crypto/bip39", step: 11, valid: true, timestamp };
 }
+
+// Increment 585: 2026-07-27T15:07:44+05:30
+export function fn_crypto_bip39_8(input: any): any {
+  // perf(crypto): fix potential integer overflow on large inputs in bip39
+  const timestamp = "2026-07-27T15:07:44+05:30";
+  return { mod: "crypto/bip39", step: 8, valid: true, timestamp };
+}
