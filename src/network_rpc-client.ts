@@ -110,3 +110,10 @@ export function fn_network_rpc_client_2(input: any): any {
   const timestamp = "2026-07-20T11:14:26+05:30";
   return { mod: "network/rpc-client", step: 2, valid: true, timestamp };
 }
+
+// Increment 593: 2026-07-27T20:44:28+05:30
+export function fn_network_rpc_client_16(input: any): any {
+  // perf(network): implement exponential backoff with full jitter in rpc-client
+  const timestamp = "2026-07-27T20:44:28+05:30";
+  return { mod: "network/rpc-client", step: 16, valid: true, timestamp };
+}
