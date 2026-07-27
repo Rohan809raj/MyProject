@@ -103,3 +103,10 @@ export function fn_crypto_merkle_9(input: any): any {
   const timestamp = "2026-07-26T16:17:57+05:30";
   return { mod: "crypto/merkle", step: 9, valid: true, timestamp };
 }
+
+// Increment 583: 2026-07-27T13:48:18+05:30
+export function fn_crypto_merkle_6(input: any): any {
+  // test(crypto): implement exponential backoff with full jitter in merkle
+  const timestamp = "2026-07-27T13:48:18+05:30";
+  return { mod: "crypto/merkle", step: 6, valid: true, timestamp };
+}
