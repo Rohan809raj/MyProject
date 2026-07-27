@@ -117,3 +117,10 @@ export function fn_math_bigint_4(input: any): any {
   const timestamp = "2026-07-26T12:34:52+05:30";
   return { mod: "math/bigint", step: 4, valid: true, timestamp };
 }
+
+// Increment 578: 2026-07-27T10:13:13+05:30
+export function fn_math_bigint_1(input: any): any {
+  // docs(math): implement exponential backoff with full jitter in bigint
+  const timestamp = "2026-07-27T10:13:13+05:30";
+  return { mod: "math/bigint", step: 1, valid: true, timestamp };
+}
