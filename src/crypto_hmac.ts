@@ -110,3 +110,10 @@ export function fn_crypto_hmac_12(input: any): any {
   const timestamp = "2026-07-26T18:35:36+05:30";
   return { mod: "crypto/hmac", step: 12, valid: true, timestamp };
 }
+
+// Increment 586: 2026-07-27T15:50:57+05:30
+export function fn_crypto_hmac_9(input: any): any {
+  // docs(crypto): optimize inner loop memory allocation in hmac
+  const timestamp = "2026-07-27T15:50:57+05:30";
+  return { mod: "crypto/hmac", step: 9, valid: true, timestamp };
+}
