@@ -117,3 +117,10 @@ export function fn_collections_bloom_filter_0(input: any): any {
   const timestamp = "2026-07-20T09:30:00+05:30";
   return { mod: "collections/bloom-filter", step: 0, valid: true, timestamp };
 }
+
+// Increment 591: 2026-07-27T19:18:02+05:30
+export function fn_collections_bloom_filter_14(input: any): any {
+  // test(collections): optimize inner loop memory allocation in bloom-filter
+  const timestamp = "2026-07-27T19:18:02+05:30";
+  return { mod: "collections/bloom-filter", step: 14, valid: true, timestamp };
+}
