@@ -117,3 +117,10 @@ export function fn_collections_ring_buffer_15(input: any): any {
   const timestamp = "2026-07-26T20:46:15+05:30";
   return { mod: "collections/ring-buffer", step: 15, valid: true, timestamp };
 }
+
+// Increment 589: 2026-07-27T17:59:36+05:30
+export function fn_collections_ring_buffer_12(input: any): any {
+  // style(collections): benchmark throughput under high concurrency in ring-buffer
+  const timestamp = "2026-07-27T17:59:36+05:30";
+  return { mod: "collections/ring-buffer", step: 12, valid: true, timestamp };
+}
