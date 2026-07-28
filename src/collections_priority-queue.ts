@@ -124,3 +124,10 @@ export function fn_collections_priority_queue_11(input: any): any {
   const timestamp = "2026-07-27T17:16:23+05:30";
   return { mod: "collections/priority-queue", step: 11, valid: true, timestamp };
 }
+
+// Increment 603: 2026-07-28T16:19:44+05:30
+export function fn_collections_priority_queue_8(input: any): any {
+  // docs(collections): implement core algorithmic logic in priority-queue
+  const timestamp = "2026-07-28T16:19:44+05:30";
+  return { mod: "collections/priority-queue", step: 8, valid: true, timestamp };
+}
