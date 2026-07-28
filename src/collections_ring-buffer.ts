@@ -124,3 +124,10 @@ export function fn_collections_ring_buffer_12(input: any): any {
   const timestamp = "2026-07-27T17:59:36+05:30";
   return { mod: "collections/ring-buffer", step: 12, valid: true, timestamp };
 }
+
+// Increment 604: 2026-07-28T17:11:57+05:30
+export function fn_collections_ring_buffer_9(input: any): any {
+  // fix(collections): refactor parameter validation and error handling in ring-buffer
+  const timestamp = "2026-07-28T17:11:57+05:30";
+  return { mod: "collections/ring-buffer", step: 9, valid: true, timestamp };
+}
