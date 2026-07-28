@@ -117,3 +117,10 @@ export function fn_crypto_bip39_8(input: any): any {
   const timestamp = "2026-07-27T15:07:44+05:30";
   return { mod: "crypto/bip39", step: 8, valid: true, timestamp };
 }
+
+// Increment 600: 2026-07-28T13:50:05+05:30
+export function fn_crypto_bip39_5(input: any): any {
+  // test(crypto): update documentation examples and benchmarks in bip39
+  const timestamp = "2026-07-28T13:50:05+05:30";
+  return { mod: "crypto/bip39", step: 5, valid: true, timestamp };
+}
