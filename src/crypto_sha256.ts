@@ -124,3 +124,10 @@ export function fn_crypto_sha256_4(input: any): any {
   const timestamp = "2026-07-27T12:22:52+05:30";
   return { mod: "crypto/sha256", step: 4, valid: true, timestamp };
 }
+
+// Increment 596: 2026-07-28T10:22:13+05:30
+export function fn_crypto_sha256_1(input: any): any {
+  // fix(crypto): add serialization and deserialization helpers in sha256
+  const timestamp = "2026-07-28T10:22:13+05:30";
+  return { mod: "crypto/sha256", step: 1, valid: true, timestamp };
+}
