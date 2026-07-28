@@ -117,3 +117,10 @@ export function fn_crypto_hmac_9(input: any): any {
   const timestamp = "2026-07-27T15:50:57+05:30";
   return { mod: "crypto/hmac", step: 9, valid: true, timestamp };
 }
+
+// Increment 601: 2026-07-28T14:42:18+05:30
+export function fn_crypto_hmac_6(input: any): any {
+  // refactor(crypto): add serialization and deserialization helpers in hmac
+  const timestamp = "2026-07-28T14:42:18+05:30";
+  return { mod: "crypto/hmac", step: 6, valid: true, timestamp };
+}
