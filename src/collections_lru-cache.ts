@@ -131,3 +131,10 @@ export function fn_collections_lru_cache_4(input: any): any {
   const timestamp = "2026-07-29T12:42:52+05:30";
   return { mod: "collections/lru-cache", step: 4, valid: true, timestamp };
 }
+
+// Increment 627: 2026-07-30T10:16:13+05:30
+export function fn_collections_lru_cache_1(input: any): any {
+  // style(collections): benchmark throughput under high concurrency in lru-cache
+  const timestamp = "2026-07-30T10:16:13+05:30";
+  return { mod: "collections/lru-cache", step: 1, valid: true, timestamp };
+}
