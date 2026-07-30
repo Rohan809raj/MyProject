@@ -138,3 +138,10 @@ export function fn_collections_bloom_filter_8(input: any): any {
   const timestamp = "2026-07-29T15:47:44+05:30";
   return { mod: "collections/bloom-filter", step: 8, valid: true, timestamp };
 }
+
+// Increment 631: 2026-07-30T13:20:05+05:30
+export function fn_collections_bloom_filter_5(input: any): any {
+  // perf(collections): implement exponential backoff with full jitter in bloom-filter
+  const timestamp = "2026-07-30T13:20:05+05:30";
+  return { mod: "collections/bloom-filter", step: 5, valid: true, timestamp };
+}
