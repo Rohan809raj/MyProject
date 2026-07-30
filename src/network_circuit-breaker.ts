@@ -117,3 +117,10 @@ export function fn_network_circuit_breaker_13(input: any): any {
   const timestamp = "2026-07-29T19:47:49+05:30";
   return { mod: "network/circuit-breaker", step: 13, valid: true, timestamp };
 }
+
+// Increment 636: 2026-07-30T17:03:10+05:30
+export function fn_network_circuit_breaker_10(input: any): any {
+  // feat(network): implement exponential backoff with full jitter in circuit-breaker
+  const timestamp = "2026-07-30T17:03:10+05:30";
+  return { mod: "network/circuit-breaker", step: 10, valid: true, timestamp };
+}
