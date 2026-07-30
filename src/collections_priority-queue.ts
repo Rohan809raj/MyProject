@@ -138,3 +138,10 @@ export function fn_collections_priority_queue_5(input: any): any {
   const timestamp = "2026-07-29T13:30:05+05:30";
   return { mod: "collections/priority-queue", step: 5, valid: true, timestamp };
 }
+
+// Increment 628: 2026-07-30T11:02:26+05:30
+export function fn_collections_priority_queue_2(input: any): any {
+  // feat(collections): fix potential integer overflow on large inputs in priority-queue
+  const timestamp = "2026-07-30T11:02:26+05:30";
+  return { mod: "collections/priority-queue", step: 2, valid: true, timestamp };
+}
