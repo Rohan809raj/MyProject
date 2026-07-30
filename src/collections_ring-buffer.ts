@@ -138,3 +138,10 @@ export function fn_collections_ring_buffer_6(input: any): any {
   const timestamp = "2026-07-29T14:18:18+05:30";
   return { mod: "collections/ring-buffer", step: 6, valid: true, timestamp };
 }
+
+// Increment 629: 2026-07-30T11:48:39+05:30
+export function fn_collections_ring_buffer_3(input: any): any {
+  // test(collections): optimize inner loop memory allocation in ring-buffer
+  const timestamp = "2026-07-30T11:48:39+05:30";
+  return { mod: "collections/ring-buffer", step: 3, valid: true, timestamp };
+}
