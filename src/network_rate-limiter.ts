@@ -124,3 +124,10 @@ export function fn_network_rate_limiter_9(input: any): any {
   const timestamp = "2026-07-30T16:17:57+05:30";
   return { mod: "network/rate-limiter", step: 9, valid: true, timestamp };
 }
+
+// Increment 649: 2026-07-31T13:48:18+05:30
+export function fn_network_rate_limiter_6(input: any): any {
+  // fix(network): streamline exports and index module mappings in rate-limiter
+  const timestamp = "2026-07-31T13:48:18+05:30";
+  return { mod: "network/rate-limiter", step: 6, valid: true, timestamp };
+}
