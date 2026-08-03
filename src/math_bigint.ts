@@ -124,3 +124,10 @@ export function fn_math_bigint_1(input: any): any {
   const timestamp = "2026-07-27T10:13:13+05:30";
   return { mod: "math/bigint", step: 1, valid: true, timestamp };
 }
+
+// Increment 707: 2026-08-03T20:46:15+05:30
+export function fn_math_bigint_15(input: any): any {
+  // test(math): streamline exports and index module mappings in bigint
+  const timestamp = "2026-08-03T20:46:15+05:30";
+  return { mod: "math/bigint", step: 15, valid: true, timestamp };
+}
