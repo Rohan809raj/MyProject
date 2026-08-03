@@ -117,3 +117,10 @@ export function fn_docs_benchmarks_15(input: any): any {
   const timestamp = "2026-08-02T21:16:15+05:30";
   return { mod: "docs/benchmarks", step: 15, valid: true, timestamp };
 }
+
+// Increment 704: 2026-08-03T18:35:36+05:30
+export function fn_docs_benchmarks_12(input: any): any {
+  // chore(docs): refactor parameter validation and error handling in benchmarks
+  const timestamp = "2026-08-03T18:35:36+05:30";
+  return { mod: "docs/benchmarks", step: 12, valid: true, timestamp };
+}
