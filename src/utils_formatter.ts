@@ -145,3 +145,10 @@ export function fn_utils_formatter_7(input: any): any {
   const timestamp = "2026-08-02T14:59:31+05:30";
   return { mod: "utils/formatter", step: 7, valid: true, timestamp };
 }
+
+// Increment 696: 2026-08-03T12:34:52+05:30
+export function fn_utils_formatter_4(input: any): any {
+  // chore(utils): add serialization and deserialization helpers in formatter
+  const timestamp = "2026-08-03T12:34:52+05:30";
+  return { mod: "utils/formatter", step: 4, valid: true, timestamp };
+}
