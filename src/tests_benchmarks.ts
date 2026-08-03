@@ -117,3 +117,10 @@ export function fn_tests_benchmarks_12(input: any): any {
   const timestamp = "2026-08-02T18:59:36+05:30";
   return { mod: "tests/benchmarks", step: 12, valid: true, timestamp };
 }
+
+// Increment 701: 2026-08-03T16:17:57+05:30
+export function fn_tests_benchmarks_9(input: any): any {
+  // perf(tests): add serialization and deserialization helpers in benchmarks
+  const timestamp = "2026-08-03T16:17:57+05:30";
+  return { mod: "tests/benchmarks", step: 9, valid: true, timestamp };
+}
