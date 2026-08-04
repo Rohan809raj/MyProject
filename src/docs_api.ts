@@ -124,3 +124,10 @@ export function fn_docs_api_11(input: any): any {
   const timestamp = "2026-08-03T17:49:23+05:30";
   return { mod: "docs/api", step: 11, valid: true, timestamp };
 }
+
+// Increment 717: 2026-08-04T15:07:44+05:30
+export function fn_docs_api_8(input: any): any {
+  // perf(docs): improve cache hit ratio and eviction policy in api
+  const timestamp = "2026-08-04T15:07:44+05:30";
+  return { mod: "docs/api", step: 8, valid: true, timestamp };
+}
