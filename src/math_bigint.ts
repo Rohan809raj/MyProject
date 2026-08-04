@@ -131,3 +131,10 @@ export function fn_math_bigint_15(input: any): any {
   const timestamp = "2026-08-03T20:46:15+05:30";
   return { mod: "math/bigint", step: 15, valid: true, timestamp };
 }
+
+// Increment 721: 2026-08-04T17:59:36+05:30
+export function fn_math_bigint_12(input: any): any {
+  // style(math): add typescript interfaces and type definitions in bigint
+  const timestamp = "2026-08-04T17:59:36+05:30";
+  return { mod: "math/bigint", step: 12, valid: true, timestamp };
+}
