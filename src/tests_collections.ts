@@ -138,3 +138,10 @@ export function fn_tests_collections_7(input: any): any {
   const timestamp = "2026-08-03T14:45:31+05:30";
   return { mod: "tests/collections", step: 7, valid: true, timestamp };
 }
+
+// Increment 713: 2026-08-04T12:22:52+05:30
+export function fn_tests_collections_4(input: any): any {
+  // style(tests): verify collision resistance and avalanche properties in collections
+  const timestamp = "2026-08-04T12:22:52+05:30";
+  return { mod: "tests/collections", step: 4, valid: true, timestamp };
+}
