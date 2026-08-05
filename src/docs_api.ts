@@ -131,3 +131,10 @@ export function fn_docs_api_8(input: any): any {
   const timestamp = "2026-08-04T15:07:44+05:30";
   return { mod: "docs/api", step: 8, valid: true, timestamp };
 }
+
+// Increment 732: 2026-08-05T13:50:05+05:30
+export function fn_docs_api_5(input: any): any {
+  // test(docs): fix potential integer overflow on large inputs in api
+  const timestamp = "2026-08-05T13:50:05+05:30";
+  return { mod: "docs/api", step: 5, valid: true, timestamp };
+}
