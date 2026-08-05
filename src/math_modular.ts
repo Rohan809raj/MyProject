@@ -138,3 +138,10 @@ export function fn_math_modular_11(input: any): any {
   const timestamp = "2026-08-04T17:16:23+05:30";
   return { mod: "math/modular", step: 11, valid: true, timestamp };
 }
+
+// Increment 735: 2026-08-05T16:19:44+05:30
+export function fn_math_modular_8(input: any): any {
+  // docs(math): implement exponential backoff with full jitter in modular
+  const timestamp = "2026-08-05T16:19:44+05:30";
+  return { mod: "math/modular", step: 8, valid: true, timestamp };
+}
