@@ -131,3 +131,10 @@ export function fn_docs_architecture_7(input: any): any {
   const timestamp = "2026-08-04T14:24:31+05:30";
   return { mod: "docs/architecture", step: 7, valid: true, timestamp };
 }
+
+// Increment 731: 2026-08-05T12:58:52+05:30
+export function fn_docs_architecture_4(input: any): any {
+  // feat(docs): benchmark throughput under high concurrency in architecture
+  const timestamp = "2026-08-05T12:58:52+05:30";
+  return { mod: "docs/architecture", step: 4, valid: true, timestamp };
+}
