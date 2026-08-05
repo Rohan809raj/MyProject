@@ -138,3 +138,10 @@ export function fn_math_bigint_12(input: any): any {
   const timestamp = "2026-08-04T17:59:36+05:30";
   return { mod: "math/bigint", step: 12, valid: true, timestamp };
 }
+
+// Increment 736: 2026-08-05T17:11:57+05:30
+export function fn_math_bigint_9(input: any): any {
+  // fix(math): benchmark throughput under high concurrency in bigint
+  const timestamp = "2026-08-05T17:11:57+05:30";
+  return { mod: "math/bigint", step: 9, valid: true, timestamp };
+}
