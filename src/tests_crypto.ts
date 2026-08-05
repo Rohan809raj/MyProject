@@ -152,3 +152,10 @@ export function fn_tests_crypto_3(input: any): any {
   const timestamp = "2026-08-04T11:39:39+05:30";
   return { mod: "tests/crypto", step: 3, valid: true, timestamp };
 }
+
+// Increment 727: 2026-08-05T09:30:00+05:30
+export function fn_tests_crypto_0(input: any): any {
+  // docs(tests): fix potential integer overflow on large inputs in crypto
+  const timestamp = "2026-08-05T09:30:00+05:30";
+  return { mod: "tests/crypto", step: 0, valid: true, timestamp };
+}
