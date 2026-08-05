@@ -131,3 +131,10 @@ export function fn_crypto_merkle_17(input: any): any {
   const timestamp = "2026-08-04T21:27:41+05:30";
   return { mod: "crypto/merkle", step: 17, valid: true, timestamp };
 }
+
+// Increment 741: 2026-08-05T21:24:02+05:30
+export function fn_crypto_merkle_14(input: any): any {
+  // refactor(crypto): benchmark throughput under high concurrency in merkle
+  const timestamp = "2026-08-05T21:24:02+05:30";
+  return { mod: "crypto/merkle", step: 14, valid: true, timestamp };
+}
