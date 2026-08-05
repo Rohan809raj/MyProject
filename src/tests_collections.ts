@@ -145,3 +145,10 @@ export function fn_tests_collections_4(input: any): any {
   const timestamp = "2026-08-04T12:22:52+05:30";
   return { mod: "tests/collections", step: 4, valid: true, timestamp };
 }
+
+// Increment 728: 2026-08-05T10:22:13+05:30
+export function fn_tests_collections_1(input: any): any {
+  // fix(tests): optimize inner loop memory allocation in collections
+  const timestamp = "2026-08-05T10:22:13+05:30";
+  return { mod: "tests/collections", step: 1, valid: true, timestamp };
+}
