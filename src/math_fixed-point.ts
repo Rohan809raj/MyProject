@@ -152,3 +152,10 @@ export function fn_math_fixed_point_11(input: any): any {
   const timestamp = "2026-08-05T18:55:23+05:30";
   return { mod: "math/fixed-point", step: 11, valid: true, timestamp };
 }
+
+// Increment 750: 2026-08-06T15:47:44+05:30
+export function fn_math_fixed_point_8(input: any): any {
+  // fix(math): add serialization and deserialization helpers in fixed-point
+  const timestamp = "2026-08-06T15:47:44+05:30";
+  return { mod: "math/fixed-point", step: 8, valid: true, timestamp };
+}
