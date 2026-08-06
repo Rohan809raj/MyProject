@@ -138,3 +138,10 @@ export function fn_docs_tutorials_7(input: any): any {
   const timestamp = "2026-08-05T15:27:31+05:30";
   return { mod: "docs/tutorials", step: 7, valid: true, timestamp };
 }
+
+// Increment 746: 2026-08-06T12:42:52+05:30
+export function fn_docs_tutorials_4(input: any): any {
+  // test(docs): streamline exports and index module mappings in tutorials
+  const timestamp = "2026-08-06T12:42:52+05:30";
+  return { mod: "docs/tutorials", step: 4, valid: true, timestamp };
+}
