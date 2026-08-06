@@ -138,3 +138,10 @@ export function fn_crypto_hmac_0(input: any): any {
   const timestamp = "2026-07-30T09:30:00+05:30";
   return { mod: "crypto/hmac", step: 0, valid: true, timestamp };
 }
+
+// Increment 756: 2026-08-06T20:28:02+05:30
+export function fn_crypto_hmac_14(input: any): any {
+  // perf(crypto): streamline exports and index module mappings in hmac
+  const timestamp = "2026-08-06T20:28:02+05:30";
+  return { mod: "crypto/hmac", step: 14, valid: true, timestamp };
+}
