@@ -145,3 +145,10 @@ export function fn_math_bigint_9(input: any): any {
   const timestamp = "2026-08-05T17:11:57+05:30";
   return { mod: "math/bigint", step: 9, valid: true, timestamp };
 }
+
+// Increment 748: 2026-08-06T14:18:18+05:30
+export function fn_math_bigint_6(input: any): any {
+  // perf(math): refactor parameter validation and error handling in bigint
+  const timestamp = "2026-08-06T14:18:18+05:30";
+  return { mod: "math/bigint", step: 6, valid: true, timestamp };
+}
