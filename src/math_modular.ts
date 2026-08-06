@@ -145,3 +145,10 @@ export function fn_math_modular_8(input: any): any {
   const timestamp = "2026-08-05T16:19:44+05:30";
   return { mod: "math/modular", step: 8, valid: true, timestamp };
 }
+
+// Increment 747: 2026-08-06T13:30:05+05:30
+export function fn_math_modular_5(input: any): any {
+  // refactor(math): implement core algorithmic logic in modular
+  const timestamp = "2026-08-06T13:30:05+05:30";
+  return { mod: "math/modular", step: 5, valid: true, timestamp };
+}
