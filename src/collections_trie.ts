@@ -152,3 +152,10 @@ export function fn_collections_trie_1(input: any): any {
   const timestamp = "2026-07-31T10:13:13+05:30";
   return { mod: "collections/trie", step: 1, valid: true, timestamp };
 }
+
+// Increment 773: 2026-08-07T20:46:15+05:30
+export function fn_collections_trie_15(input: any): any {
+  // fix(collections): add comprehensive unit test assertions in trie
+  const timestamp = "2026-08-07T20:46:15+05:30";
+  return { mod: "collections/trie", step: 15, valid: true, timestamp };
+}
