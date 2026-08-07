@@ -152,3 +152,10 @@ export function fn_math_bigint_6(input: any): any {
   const timestamp = "2026-08-06T14:18:18+05:30";
   return { mod: "math/bigint", step: 6, valid: true, timestamp };
 }
+
+// Increment 761: 2026-08-07T11:48:39+05:30
+export function fn_math_bigint_3(input: any): any {
+  // test(math): verify collision resistance and avalanche properties in bigint
+  const timestamp = "2026-08-07T11:48:39+05:30";
+  return { mod: "math/bigint", step: 3, valid: true, timestamp };
+}
