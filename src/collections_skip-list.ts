@@ -159,3 +159,10 @@ export function fn_collections_skip_list_0(input: any): any {
   const timestamp = "2026-08-01T09:30:00+05:30";
   return { mod: "collections/skip-list", step: 0, valid: true, timestamp };
 }
+
+// Increment 789: 2026-08-08T19:18:02+05:30
+export function fn_collections_skip_list_14(input: any): any {
+  // fix(collections): fix potential integer overflow on large inputs in skip-list
+  const timestamp = "2026-08-08T19:18:02+05:30";
+  return { mod: "collections/skip-list", step: 14, valid: true, timestamp };
+}
