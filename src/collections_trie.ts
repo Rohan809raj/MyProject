@@ -159,3 +159,10 @@ export function fn_collections_trie_15(input: any): any {
   const timestamp = "2026-08-07T20:46:15+05:30";
   return { mod: "collections/trie", step: 15, valid: true, timestamp };
 }
+
+// Increment 787: 2026-08-08T17:59:36+05:30
+export function fn_collections_trie_12(input: any): any {
+  // perf(collections): implement exponential backoff with full jitter in trie
+  const timestamp = "2026-08-08T17:59:36+05:30";
+  return { mod: "collections/trie", step: 12, valid: true, timestamp };
+}
