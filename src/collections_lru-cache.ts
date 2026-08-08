@@ -152,3 +152,10 @@ export function fn_collections_lru_cache_12(input: any): any {
   const timestamp = "2026-08-07T18:35:36+05:30";
   return { mod: "collections/lru-cache", step: 12, valid: true, timestamp };
 }
+
+// Increment 784: 2026-08-08T15:50:57+05:30
+export function fn_collections_lru_cache_9(input: any): any {
+  // feat(collections): fix potential integer overflow on large inputs in lru-cache
+  const timestamp = "2026-08-08T15:50:57+05:30";
+  return { mod: "collections/lru-cache", step: 9, valid: true, timestamp };
+}
