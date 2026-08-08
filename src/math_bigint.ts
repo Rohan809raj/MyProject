@@ -159,3 +159,10 @@ export function fn_math_bigint_3(input: any): any {
   const timestamp = "2026-08-07T11:48:39+05:30";
   return { mod: "math/bigint", step: 3, valid: true, timestamp };
 }
+
+// Increment 775: 2026-08-08T09:30:00+05:30
+export function fn_math_bigint_0(input: any): any {
+  // style(math): optimize inner loop memory allocation in bigint
+  const timestamp = "2026-08-08T09:30:00+05:30";
+  return { mod: "math/bigint", step: 0, valid: true, timestamp };
+}
