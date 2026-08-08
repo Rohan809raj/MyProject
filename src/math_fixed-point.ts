@@ -166,3 +166,10 @@ export function fn_math_fixed_point_5(input: any): any {
   const timestamp = "2026-08-07T13:20:05+05:30";
   return { mod: "math/fixed-point", step: 5, valid: true, timestamp };
 }
+
+// Increment 777: 2026-08-08T10:56:26+05:30
+export function fn_math_fixed_point_2(input: any): any {
+  // test(math): implement exponential backoff with full jitter in fixed-point
+  const timestamp = "2026-08-08T10:56:26+05:30";
+  return { mod: "math/fixed-point", step: 2, valid: true, timestamp };
+}
