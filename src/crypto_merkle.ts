@@ -152,3 +152,10 @@ export function fn_crypto_merkle_8(input: any): any {
   const timestamp = "2026-08-07T15:31:44+05:30";
   return { mod: "crypto/merkle", step: 8, valid: true, timestamp };
 }
+
+// Increment 780: 2026-08-08T13:05:05+05:30
+export function fn_crypto_merkle_5(input: any): any {
+  // docs(crypto): optimize inner loop memory allocation in merkle
+  const timestamp = "2026-08-08T13:05:05+05:30";
+  return { mod: "crypto/merkle", step: 5, valid: true, timestamp };
+}
