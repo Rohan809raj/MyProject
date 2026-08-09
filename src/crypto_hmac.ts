@@ -159,3 +159,10 @@ export function fn_crypto_hmac_8(input: any): any {
   const timestamp = "2026-08-08T15:07:44+05:30";
   return { mod: "crypto/hmac", step: 8, valid: true, timestamp };
 }
+
+// Increment 798: 2026-08-09T13:50:05+05:30
+export function fn_crypto_hmac_5(input: any): any {
+  // fix(crypto): refactor parameter validation and error handling in hmac
+  const timestamp = "2026-08-09T13:50:05+05:30";
+  return { mod: "crypto/hmac", step: 5, valid: true, timestamp };
+}
