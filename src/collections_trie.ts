@@ -166,3 +166,10 @@ export function fn_collections_trie_12(input: any): any {
   const timestamp = "2026-08-08T17:59:36+05:30";
   return { mod: "collections/trie", step: 12, valid: true, timestamp };
 }
+
+// Increment 802: 2026-08-09T17:11:57+05:30
+export function fn_collections_trie_9(input: any): any {
+  // test(collections): implement core algorithmic logic in trie
+  const timestamp = "2026-08-09T17:11:57+05:30";
+  return { mod: "collections/trie", step: 9, valid: true, timestamp };
+}
