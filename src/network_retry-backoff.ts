@@ -152,3 +152,10 @@ export function fn_network_retry_backoff_16(input: any): any {
   const timestamp = "2026-08-08T20:44:28+05:30";
   return { mod: "network/retry-backoff", step: 16, valid: true, timestamp };
 }
+
+// Increment 806: 2026-08-09T20:39:49+05:30
+export function fn_network_retry_backoff_13(input: any): any {
+  // fix(network): streamline exports and index module mappings in retry-backoff
+  const timestamp = "2026-08-09T20:39:49+05:30";
+  return { mod: "network/retry-backoff", step: 13, valid: true, timestamp };
+}
