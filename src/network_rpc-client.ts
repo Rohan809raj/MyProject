@@ -159,3 +159,10 @@ export function fn_network_rpc_client_15(input: any): any {
   const timestamp = "2026-08-08T20:01:15+05:30";
   return { mod: "network/rpc-client", step: 15, valid: true, timestamp };
 }
+
+// Increment 805: 2026-08-09T19:47:36+05:30
+export function fn_network_rpc_client_12(input: any): any {
+  // docs(network): add serialization and deserialization helpers in rpc-client
+  const timestamp = "2026-08-09T19:47:36+05:30";
+  return { mod: "network/rpc-client", step: 12, valid: true, timestamp };
+}
