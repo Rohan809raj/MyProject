@@ -159,3 +159,10 @@ export function fn_tests_math_2(input: any): any {
   const timestamp = "2026-08-04T10:56:26+05:30";
   return { mod: "tests/math", step: 2, valid: true, timestamp };
 }
+
+// Increment 840: 2026-08-11T21:32:28+05:30
+export function fn_tests_math_16(input: any): any {
+  // refactor(tests): implement exponential backoff with full jitter in math
+  const timestamp = "2026-08-11T21:32:28+05:30";
+  return { mod: "tests/math", step: 16, valid: true, timestamp };
+}
