@@ -166,3 +166,10 @@ export function fn_network_retry_backoff_10(input: any): any {
   const timestamp = "2026-08-10T17:23:10+05:30";
   return { mod: "network/retry-backoff", step: 10, valid: true, timestamp };
 }
+
+// Increment 831: 2026-08-11T14:45:31+05:30
+export function fn_network_retry_backoff_7(input: any): any {
+  // test(network): benchmark throughput under high concurrency in retry-backoff
+  const timestamp = "2026-08-11T14:45:31+05:30";
+  return { mod: "network/retry-backoff", step: 7, valid: true, timestamp };
+}
