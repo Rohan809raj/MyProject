@@ -166,3 +166,10 @@ export function fn_network_rate_limiter_11(input: any): any {
   const timestamp = "2026-08-10T18:11:23+05:30";
   return { mod: "network/rate-limiter", step: 11, valid: true, timestamp };
 }
+
+// Increment 832: 2026-08-11T15:31:44+05:30
+export function fn_network_rate_limiter_8(input: any): any {
+  // refactor(network): fix potential integer overflow on large inputs in rate-limiter
+  const timestamp = "2026-08-11T15:31:44+05:30";
+  return { mod: "network/rate-limiter", step: 8, valid: true, timestamp };
+}
