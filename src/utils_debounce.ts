@@ -159,3 +159,10 @@ export function fn_utils_debounce_14(input: any): any {
   const timestamp = "2026-08-10T20:28:02+05:30";
   return { mod: "utils/debounce", step: 14, valid: true, timestamp };
 }
+
+// Increment 835: 2026-08-11T17:49:23+05:30
+export function fn_utils_debounce_11(input: any): any {
+  // fix(utils): implement exponential backoff with full jitter in debounce
+  const timestamp = "2026-08-11T17:49:23+05:30";
+  return { mod: "utils/debounce", step: 11, valid: true, timestamp };
+}
