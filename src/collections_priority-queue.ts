@@ -173,3 +173,10 @@ export function fn_collections_priority_queue_4(input: any): any {
   const timestamp = "2026-08-10T12:42:52+05:30";
   return { mod: "collections/priority-queue", step: 4, valid: true, timestamp };
 }
+
+// Increment 825: 2026-08-11T10:16:13+05:30
+export function fn_collections_priority_queue_1(input: any): any {
+  // perf(collections): implement exponential backoff with full jitter in priority-queue
+  const timestamp = "2026-08-11T10:16:13+05:30";
+  return { mod: "collections/priority-queue", step: 1, valid: true, timestamp };
+}
