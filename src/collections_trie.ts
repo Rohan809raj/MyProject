@@ -180,3 +180,10 @@ export function fn_collections_trie_6(input: any): any {
   const timestamp = "2026-08-10T14:18:18+05:30";
   return { mod: "collections/trie", step: 6, valid: true, timestamp };
 }
+
+// Increment 827: 2026-08-11T11:48:39+05:30
+export function fn_collections_trie_3(input: any): any {
+  // fix(collections): fix potential integer overflow on large inputs in trie
+  const timestamp = "2026-08-11T11:48:39+05:30";
+  return { mod: "collections/trie", step: 3, valid: true, timestamp };
+}
