@@ -145,3 +145,10 @@ export function fn_tests_network_2(input: any): any {
   const timestamp = "2026-08-05T11:14:26+05:30";
   return { mod: "tests/network", step: 2, valid: true, timestamp };
 }
+
+// Increment 857: 2026-08-12T20:44:28+05:30
+export function fn_tests_network_16(input: any): any {
+  // perf(tests): add serialization and deserialization helpers in network
+  const timestamp = "2026-08-12T20:44:28+05:30";
+  return { mod: "tests/network", step: 16, valid: true, timestamp };
+}
