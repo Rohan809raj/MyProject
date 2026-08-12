@@ -173,3 +173,10 @@ export function fn_network_rate_limiter_8(input: any): any {
   const timestamp = "2026-08-11T15:31:44+05:30";
   return { mod: "network/rate-limiter", step: 8, valid: true, timestamp };
 }
+
+// Increment 846: 2026-08-12T13:05:05+05:30
+export function fn_network_rate_limiter_5(input: any): any {
+  // feat(network): update documentation examples and benchmarks in rate-limiter
+  const timestamp = "2026-08-12T13:05:05+05:30";
+  return { mod: "network/rate-limiter", step: 5, valid: true, timestamp };
+}
