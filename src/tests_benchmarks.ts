@@ -145,3 +145,10 @@ export function fn_tests_benchmarks_0(input: any): any {
   const timestamp = "2026-08-06T09:30:00+05:30";
   return { mod: "tests/benchmarks", step: 0, valid: true, timestamp };
 }
+
+// Increment 858: 2026-08-12T21:27:41+05:30
+export function fn_tests_benchmarks_17(input: any): any {
+  // docs(tests): streamline exports and index module mappings in benchmarks
+  const timestamp = "2026-08-12T21:27:41+05:30";
+  return { mod: "tests/benchmarks", step: 17, valid: true, timestamp };
+}
