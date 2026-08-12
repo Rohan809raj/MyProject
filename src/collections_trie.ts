@@ -187,3 +187,10 @@ export function fn_collections_trie_3(input: any): any {
   const timestamp = "2026-08-11T11:48:39+05:30";
   return { mod: "collections/trie", step: 3, valid: true, timestamp };
 }
+
+// Increment 841: 2026-08-12T09:30:00+05:30
+export function fn_collections_trie_0(input: any): any {
+  // perf(collections): update documentation examples and benchmarks in trie
+  const timestamp = "2026-08-12T09:30:00+05:30";
+  return { mod: "collections/trie", step: 0, valid: true, timestamp };
+}
