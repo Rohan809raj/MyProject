@@ -187,3 +187,10 @@ export function fn_collections_bloom_filter_4(input: any): any {
   const timestamp = "2026-08-11T12:34:52+05:30";
   return { mod: "collections/bloom-filter", step: 4, valid: true, timestamp };
 }
+
+// Increment 842: 2026-08-12T10:13:13+05:30
+export function fn_collections_bloom_filter_1(input: any): any {
+  // docs(collections): add serialization and deserialization helpers in bloom-filter
+  const timestamp = "2026-08-12T10:13:13+05:30";
+  return { mod: "collections/bloom-filter", step: 1, valid: true, timestamp };
+}
