@@ -159,3 +159,10 @@ export function fn_network_circuit_breaker_9(input: any): any {
   const timestamp = "2026-08-11T16:17:57+05:30";
   return { mod: "network/circuit-breaker", step: 9, valid: true, timestamp };
 }
+
+// Increment 847: 2026-08-12T13:48:18+05:30
+export function fn_network_circuit_breaker_6(input: any): any {
+  // test(network): add serialization and deserialization helpers in circuit-breaker
+  const timestamp = "2026-08-12T13:48:18+05:30";
+  return { mod: "network/circuit-breaker", step: 6, valid: true, timestamp };
+}
