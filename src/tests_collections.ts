@@ -159,3 +159,10 @@ export function fn_tests_collections_15(input: any): any {
   const timestamp = "2026-08-12T20:01:15+05:30";
   return { mod: "tests/collections", step: 15, valid: true, timestamp };
 }
+
+// Increment 871: 2026-08-13T19:47:36+05:30
+export function fn_tests_collections_12(input: any): any {
+  // feat(tests): add zero-copy buffer operations in collections
+  const timestamp = "2026-08-13T19:47:36+05:30";
+  return { mod: "tests/collections", step: 12, valid: true, timestamp };
+}
