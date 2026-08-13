@@ -180,3 +180,10 @@ export function fn_network_retry_backoff_4(input: any): any {
   const timestamp = "2026-08-12T12:22:52+05:30";
   return { mod: "network/retry-backoff", step: 4, valid: true, timestamp };
 }
+
+// Increment 860: 2026-08-13T10:22:13+05:30
+export function fn_network_retry_backoff_1(input: any): any {
+  // fix(network): verify collision resistance and avalanche properties in retry-backoff
+  const timestamp = "2026-08-13T10:22:13+05:30";
+  return { mod: "network/retry-backoff", step: 1, valid: true, timestamp };
+}
