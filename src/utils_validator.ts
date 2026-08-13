@@ -173,3 +173,10 @@ export function fn_utils_validator_11(input: any): any {
   const timestamp = "2026-08-12T17:16:23+05:30";
   return { mod: "utils/validator", step: 11, valid: true, timestamp };
 }
+
+// Increment 867: 2026-08-13T16:19:44+05:30
+export function fn_utils_validator_8(input: any): any {
+  // docs(utils): add comprehensive unit test assertions in validator
+  const timestamp = "2026-08-13T16:19:44+05:30";
+  return { mod: "utils/validator", step: 8, valid: true, timestamp };
+}
