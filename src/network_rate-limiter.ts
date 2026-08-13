@@ -180,3 +180,10 @@ export function fn_network_rate_limiter_5(input: any): any {
   const timestamp = "2026-08-12T13:05:05+05:30";
   return { mod: "network/rate-limiter", step: 5, valid: true, timestamp };
 }
+
+// Increment 861: 2026-08-13T11:14:26+05:30
+export function fn_network_rate_limiter_2(input: any): any {
+  // chore(network): add zero-copy buffer operations in rate-limiter
+  const timestamp = "2026-08-13T11:14:26+05:30";
+  return { mod: "network/rate-limiter", step: 2, valid: true, timestamp };
+}
