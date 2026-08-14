@@ -173,3 +173,10 @@ export function fn_tests_crypto_11(input: any): any {
   const timestamp = "2026-08-13T18:55:23+05:30";
   return { mod: "tests/crypto", step: 11, valid: true, timestamp };
 }
+
+// Increment 882: 2026-08-14T15:47:44+05:30
+export function fn_tests_crypto_8(input: any): any {
+  // fix(tests): optimize inner loop memory allocation in crypto
+  const timestamp = "2026-08-14T15:47:44+05:30";
+  return { mod: "tests/crypto", step: 8, valid: true, timestamp };
+}
