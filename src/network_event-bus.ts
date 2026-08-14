@@ -173,3 +173,10 @@ export function fn_network_event_bus_4(input: any): any {
   const timestamp = "2026-08-13T12:58:52+05:30";
   return { mod: "network/event-bus", step: 4, valid: true, timestamp };
 }
+
+// Increment 875: 2026-08-14T10:18:13+05:30
+export function fn_network_event_bus_1(input: any): any {
+  // chore(network): benchmark throughput under high concurrency in event-bus
+  const timestamp = "2026-08-14T10:18:13+05:30";
+  return { mod: "network/event-bus", step: 1, valid: true, timestamp };
+}
