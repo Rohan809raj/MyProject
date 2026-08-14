@@ -180,3 +180,10 @@ export function fn_tests_math_10(input: any): any {
   const timestamp = "2026-08-13T18:03:10+05:30";
   return { mod: "tests/math", step: 10, valid: true, timestamp };
 }
+
+// Increment 881: 2026-08-14T14:59:31+05:30
+export function fn_tests_math_7(input: any): any {
+  // docs(tests): fix potential integer overflow on large inputs in math
+  const timestamp = "2026-08-14T14:59:31+05:30";
+  return { mod: "tests/math", step: 7, valid: true, timestamp };
+}
