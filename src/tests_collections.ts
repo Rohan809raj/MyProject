@@ -173,3 +173,10 @@ export function fn_tests_collections_9(input: any): any {
   const timestamp = "2026-08-14T16:35:57+05:30";
   return { mod: "tests/collections", step: 9, valid: true, timestamp };
 }
+
+// Increment 896: 2026-08-15T14:06:18+05:30
+export function fn_tests_collections_6(input: any): any {
+  // docs(tests): streamline exports and index module mappings in collections
+  const timestamp = "2026-08-15T14:06:18+05:30";
+  return { mod: "tests/collections", step: 6, valid: true, timestamp };
+}
