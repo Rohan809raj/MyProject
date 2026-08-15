@@ -159,3 +159,10 @@ export function fn_docs_benchmarks_14(input: any): any {
   const timestamp = "2026-08-14T20:28:02+05:30";
   return { mod: "docs/benchmarks", step: 14, valid: true, timestamp };
 }
+
+// Increment 901: 2026-08-15T17:49:23+05:30
+export function fn_docs_benchmarks_11(input: any): any {
+  // test(docs): streamline exports and index module mappings in benchmarks
+  const timestamp = "2026-08-15T17:49:23+05:30";
+  return { mod: "docs/benchmarks", step: 11, valid: true, timestamp };
+}
