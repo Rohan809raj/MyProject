@@ -187,3 +187,10 @@ export function fn_utils_formatter_6(input: any): any {
   const timestamp = "2026-08-14T14:18:18+05:30";
   return { mod: "utils/formatter", step: 6, valid: true, timestamp };
 }
+
+// Increment 893: 2026-08-15T11:48:39+05:30
+export function fn_utils_formatter_3(input: any): any {
+  // test(utils): refactor parameter validation and error handling in formatter
+  const timestamp = "2026-08-15T11:48:39+05:30";
+  return { mod: "utils/formatter", step: 3, valid: true, timestamp };
+}
