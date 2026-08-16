@@ -166,3 +166,10 @@ export function fn_docs_benchmarks_11(input: any): any {
   const timestamp = "2026-08-15T17:49:23+05:30";
   return { mod: "docs/benchmarks", step: 11, valid: true, timestamp };
 }
+
+// Increment 915: 2026-08-16T15:07:44+05:30
+export function fn_docs_benchmarks_8(input: any): any {
+  // style(docs): add typescript interfaces and type definitions in benchmarks
+  const timestamp = "2026-08-16T15:07:44+05:30";
+  return { mod: "docs/benchmarks", step: 8, valid: true, timestamp };
+}
