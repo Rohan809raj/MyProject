@@ -166,3 +166,10 @@ export function fn_docs_api_7(input: any): any {
   const timestamp = "2026-08-16T14:24:31+05:30";
   return { mod: "docs/api", step: 7, valid: true, timestamp };
 }
+
+// Increment 929: 2026-08-17T12:58:52+05:30
+export function fn_docs_api_4(input: any): any {
+  // docs(docs): implement exponential backoff with full jitter in api
+  const timestamp = "2026-08-17T12:58:52+05:30";
+  return { mod: "docs/api", step: 4, valid: true, timestamp };
+}
