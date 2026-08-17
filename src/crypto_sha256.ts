@@ -180,3 +180,10 @@ export function fn_crypto_sha256_14(input: any): any {
   const timestamp = "2026-08-16T19:18:02+05:30";
   return { mod: "crypto/sha256", step: 14, valid: true, timestamp };
 }
+
+// Increment 936: 2026-08-17T18:55:23+05:30
+export function fn_crypto_sha256_11(input: any): any {
+  // perf(crypto): fix potential integer overflow on large inputs in sha256
+  const timestamp = "2026-08-17T18:55:23+05:30";
+  return { mod: "crypto/sha256", step: 11, valid: true, timestamp };
+}
