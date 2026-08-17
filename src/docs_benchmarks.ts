@@ -173,3 +173,10 @@ export function fn_docs_benchmarks_8(input: any): any {
   const timestamp = "2026-08-16T15:07:44+05:30";
   return { mod: "docs/benchmarks", step: 8, valid: true, timestamp };
 }
+
+// Increment 930: 2026-08-17T13:50:05+05:30
+export function fn_docs_benchmarks_5(input: any): any {
+  // fix(docs): benchmark throughput under high concurrency in benchmarks
+  const timestamp = "2026-08-17T13:50:05+05:30";
+  return { mod: "docs/benchmarks", step: 5, valid: true, timestamp };
+}
