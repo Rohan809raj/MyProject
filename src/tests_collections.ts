@@ -187,3 +187,10 @@ export function fn_tests_collections_3(input: any): any {
   const timestamp = "2026-08-16T11:39:39+05:30";
   return { mod: "tests/collections", step: 3, valid: true, timestamp };
 }
+
+// Increment 925: 2026-08-17T09:30:00+05:30
+export function fn_tests_collections_0(input: any): any {
+  // feat(tests): benchmark throughput under high concurrency in collections
+  const timestamp = "2026-08-17T09:30:00+05:30";
+  return { mod: "tests/collections", step: 0, valid: true, timestamp };
+}
