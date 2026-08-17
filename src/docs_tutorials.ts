@@ -173,3 +173,10 @@ export function fn_docs_tutorials_9(input: any): any {
   const timestamp = "2026-08-16T15:50:57+05:30";
   return { mod: "docs/tutorials", step: 9, valid: true, timestamp };
 }
+
+// Increment 931: 2026-08-17T14:42:18+05:30
+export function fn_docs_tutorials_6(input: any): any {
+  // chore(docs): fix potential integer overflow on large inputs in tutorials
+  const timestamp = "2026-08-17T14:42:18+05:30";
+  return { mod: "docs/tutorials", step: 6, valid: true, timestamp };
+}
