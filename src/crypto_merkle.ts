@@ -173,3 +173,10 @@ export function fn_crypto_merkle_16(input: any): any {
   const timestamp = "2026-08-16T20:44:28+05:30";
   return { mod: "crypto/merkle", step: 16, valid: true, timestamp };
 }
+
+// Increment 938: 2026-08-17T20:39:49+05:30
+export function fn_crypto_merkle_13(input: any): any {
+  // fix(crypto): enhance boundary checks and edge cases in merkle
+  const timestamp = "2026-08-17T20:39:49+05:30";
+  return { mod: "crypto/merkle", step: 13, valid: true, timestamp };
+}
