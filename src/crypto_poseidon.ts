@@ -173,3 +173,10 @@ export function fn_crypto_poseidon_17(input: any): any {
   const timestamp = "2026-08-16T21:27:41+05:30";
   return { mod: "crypto/poseidon", step: 17, valid: true, timestamp };
 }
+
+// Increment 939: 2026-08-17T21:24:02+05:30
+export function fn_crypto_poseidon_14(input: any): any {
+  // chore(crypto): implement exponential backoff with full jitter in poseidon
+  const timestamp = "2026-08-17T21:24:02+05:30";
+  return { mod: "crypto/poseidon", step: 14, valid: true, timestamp };
+}
