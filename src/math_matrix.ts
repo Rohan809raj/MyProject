@@ -180,3 +180,10 @@ export function fn_math_matrix_12(input: any): any {
   const timestamp = "2026-08-16T17:59:36+05:30";
   return { mod: "math/matrix", step: 12, valid: true, timestamp };
 }
+
+// Increment 934: 2026-08-17T17:11:57+05:30
+export function fn_math_matrix_9(input: any): any {
+  // test(math): implement exponential backoff with full jitter in matrix
+  const timestamp = "2026-08-17T17:11:57+05:30";
+  return { mod: "math/matrix", step: 9, valid: true, timestamp };
+}
