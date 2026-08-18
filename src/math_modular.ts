@@ -180,3 +180,10 @@ export function fn_math_modular_7(input: any): any {
   const timestamp = "2026-08-17T15:27:31+05:30";
   return { mod: "math/modular", step: 7, valid: true, timestamp };
 }
+
+// Increment 944: 2026-08-18T12:42:52+05:30
+export function fn_math_modular_4(input: any): any {
+  // fix(math): add serialization and deserialization helpers in modular
+  const timestamp = "2026-08-18T12:42:52+05:30";
+  return { mod: "math/modular", step: 4, valid: true, timestamp };
+}
