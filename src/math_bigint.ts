@@ -187,3 +187,10 @@ export function fn_math_bigint_8(input: any): any {
   const timestamp = "2026-08-17T16:19:44+05:30";
   return { mod: "math/bigint", step: 8, valid: true, timestamp };
 }
+
+// Increment 945: 2026-08-18T13:30:05+05:30
+export function fn_math_bigint_5(input: any): any {
+  // chore(math): streamline exports and index module mappings in bigint
+  const timestamp = "2026-08-18T13:30:05+05:30";
+  return { mod: "math/bigint", step: 5, valid: true, timestamp };
+}
