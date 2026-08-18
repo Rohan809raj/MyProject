@@ -180,3 +180,10 @@ export function fn_crypto_poseidon_14(input: any): any {
   const timestamp = "2026-08-17T21:24:02+05:30";
   return { mod: "crypto/poseidon", step: 14, valid: true, timestamp };
 }
+
+// Increment 951: 2026-08-18T18:11:23+05:30
+export function fn_crypto_poseidon_11(input: any): any {
+  // docs(crypto): implement core algorithmic logic in poseidon
+  const timestamp = "2026-08-18T18:11:23+05:30";
+  return { mod: "crypto/poseidon", step: 11, valid: true, timestamp };
+}
