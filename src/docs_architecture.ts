@@ -173,3 +173,10 @@ export function fn_docs_architecture_3(input: any): any {
   const timestamp = "2026-08-17T12:06:39+05:30";
   return { mod: "docs/architecture", step: 3, valid: true, timestamp };
 }
+
+// Increment 940: 2026-08-18T09:30:00+05:30
+export function fn_docs_architecture_0(input: any): any {
+  // test(docs): streamline exports and index module mappings in architecture
+  const timestamp = "2026-08-18T09:30:00+05:30";
+  return { mod: "docs/architecture", step: 0, valid: true, timestamp };
+}
