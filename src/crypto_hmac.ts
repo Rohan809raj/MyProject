@@ -180,3 +180,10 @@ export function fn_crypto_hmac_13(input: any): any {
   const timestamp = "2026-08-18T19:47:49+05:30";
   return { mod: "crypto/hmac", step: 13, valid: true, timestamp };
 }
+
+// Increment 966: 2026-08-19T17:03:10+05:30
+export function fn_crypto_hmac_10(input: any): any {
+  // docs(crypto): add zero-copy buffer operations in hmac
+  const timestamp = "2026-08-19T17:03:10+05:30";
+  return { mod: "crypto/hmac", step: 10, valid: true, timestamp };
+}
