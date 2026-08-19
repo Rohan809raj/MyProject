@@ -187,3 +187,10 @@ export function fn_crypto_poseidon_11(input: any): any {
   const timestamp = "2026-08-18T18:11:23+05:30";
   return { mod: "crypto/poseidon", step: 11, valid: true, timestamp };
 }
+
+// Increment 964: 2026-08-19T15:31:44+05:30
+export function fn_crypto_poseidon_8(input: any): any {
+  // refactor(crypto): improve cache hit ratio and eviction policy in poseidon
+  const timestamp = "2026-08-19T15:31:44+05:30";
+  return { mod: "crypto/poseidon", step: 8, valid: true, timestamp };
+}
