@@ -194,3 +194,10 @@ export function fn_collections_bloom_filter_1(input: any): any {
   const timestamp = "2026-08-12T10:13:13+05:30";
   return { mod: "collections/bloom-filter", step: 1, valid: true, timestamp };
 }
+
+// Increment 971: 2026-08-19T20:46:15+05:30
+export function fn_collections_bloom_filter_15(input: any): any {
+  // test(collections): add zero-copy buffer operations in bloom-filter
+  const timestamp = "2026-08-19T20:46:15+05:30";
+  return { mod: "collections/bloom-filter", step: 15, valid: true, timestamp };
+}
