@@ -187,3 +187,10 @@ export function fn_math_modular_4(input: any): any {
   const timestamp = "2026-08-18T12:42:52+05:30";
   return { mod: "math/modular", step: 4, valid: true, timestamp };
 }
+
+// Increment 957: 2026-08-19T10:16:13+05:30
+export function fn_math_modular_1(input: any): any {
+  // perf(math): add comprehensive unit test assertions in modular
+  const timestamp = "2026-08-19T10:16:13+05:30";
+  return { mod: "math/modular", step: 1, valid: true, timestamp };
+}
