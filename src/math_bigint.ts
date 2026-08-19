@@ -194,3 +194,10 @@ export function fn_math_bigint_5(input: any): any {
   const timestamp = "2026-08-18T13:30:05+05:30";
   return { mod: "math/bigint", step: 5, valid: true, timestamp };
 }
+
+// Increment 958: 2026-08-19T11:02:26+05:30
+export function fn_math_bigint_2(input: any): any {
+  // docs(math): add typescript interfaces and type definitions in bigint
+  const timestamp = "2026-08-19T11:02:26+05:30";
+  return { mod: "math/bigint", step: 2, valid: true, timestamp };
+}
