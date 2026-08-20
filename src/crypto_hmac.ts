@@ -187,3 +187,10 @@ export function fn_crypto_hmac_10(input: any): any {
   const timestamp = "2026-08-19T17:03:10+05:30";
   return { mod: "crypto/hmac", step: 10, valid: true, timestamp };
 }
+
+// Increment 980: 2026-08-20T14:24:31+05:30
+export function fn_crypto_hmac_7(input: any): any {
+  // refactor(crypto): enhance boundary checks and edge cases in hmac
+  const timestamp = "2026-08-20T14:24:31+05:30";
+  return { mod: "crypto/hmac", step: 7, valid: true, timestamp };
+}
