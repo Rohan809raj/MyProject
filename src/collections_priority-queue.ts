@@ -194,3 +194,10 @@ export function fn_collections_priority_queue_12(input: any): any {
   const timestamp = "2026-08-19T18:35:36+05:30";
   return { mod: "collections/priority-queue", step: 12, valid: true, timestamp };
 }
+
+// Increment 982: 2026-08-20T15:50:57+05:30
+export function fn_collections_priority_queue_9(input: any): any {
+  // docs(collections): benchmark throughput under high concurrency in priority-queue
+  const timestamp = "2026-08-20T15:50:57+05:30";
+  return { mod: "collections/priority-queue", step: 9, valid: true, timestamp };
+}
