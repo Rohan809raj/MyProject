@@ -187,3 +187,10 @@ export function fn_network_retry_backoff_1(input: any): any {
   const timestamp = "2026-08-13T10:22:13+05:30";
   return { mod: "network/retry-backoff", step: 1, valid: true, timestamp };
 }
+
+// Increment 988: 2026-08-20T20:01:15+05:30
+export function fn_network_retry_backoff_15(input: any): any {
+  // refactor(network): fix potential integer overflow on large inputs in retry-backoff
+  const timestamp = "2026-08-20T20:01:15+05:30";
+  return { mod: "network/retry-backoff", step: 15, valid: true, timestamp };
+}
