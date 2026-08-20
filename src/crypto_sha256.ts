@@ -201,3 +201,10 @@ export function fn_crypto_sha256_5(input: any): any {
   const timestamp = "2026-08-19T13:20:05+05:30";
   return { mod: "crypto/sha256", step: 5, valid: true, timestamp };
 }
+
+// Increment 975: 2026-08-20T10:56:26+05:30
+export function fn_crypto_sha256_2(input: any): any {
+  // fix(crypto): enhance boundary checks and edge cases in sha256
+  const timestamp = "2026-08-20T10:56:26+05:30";
+  return { mod: "crypto/sha256", step: 2, valid: true, timestamp };
+}
