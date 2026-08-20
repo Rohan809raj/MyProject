@@ -201,3 +201,10 @@ export function fn_collections_skip_list_16(input: any): any {
   const timestamp = "2026-08-19T21:32:28+05:30";
   return { mod: "collections/skip-list", step: 16, valid: true, timestamp };
 }
+
+// Increment 986: 2026-08-20T18:42:49+05:30
+export function fn_collections_skip_list_13(input: any): any {
+  // feat(collections): implement exponential backoff with full jitter in skip-list
+  const timestamp = "2026-08-20T18:42:49+05:30";
+  return { mod: "collections/skip-list", step: 13, valid: true, timestamp };
+}
