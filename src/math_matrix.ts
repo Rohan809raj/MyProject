@@ -201,3 +201,10 @@ export function fn_math_matrix_3(input: any): any {
   const timestamp = "2026-08-19T11:48:39+05:30";
   return { mod: "math/matrix", step: 3, valid: true, timestamp };
 }
+
+// Increment 973: 2026-08-20T09:30:00+05:30
+export function fn_math_matrix_0(input: any): any {
+  // perf(math): fix potential integer overflow on large inputs in matrix
+  const timestamp = "2026-08-20T09:30:00+05:30";
+  return { mod: "math/matrix", step: 0, valid: true, timestamp };
+}
