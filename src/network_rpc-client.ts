@@ -194,3 +194,10 @@ export function fn_network_rpc_client_0(input: any): any {
   const timestamp = "2026-08-13T09:30:00+05:30";
   return { mod: "network/rpc-client", step: 0, valid: true, timestamp };
 }
+
+// Increment 987: 2026-08-20T19:18:02+05:30
+export function fn_network_rpc_client_14(input: any): any {
+  // test(network): benchmark throughput under high concurrency in rpc-client
+  const timestamp = "2026-08-20T19:18:02+05:30";
+  return { mod: "network/rpc-client", step: 14, valid: true, timestamp };
+}
