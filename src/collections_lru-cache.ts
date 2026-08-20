@@ -194,3 +194,10 @@ export function fn_collections_lru_cache_11(input: any): any {
   const timestamp = "2026-08-19T17:49:23+05:30";
   return { mod: "collections/lru-cache", step: 11, valid: true, timestamp };
 }
+
+// Increment 981: 2026-08-20T15:07:44+05:30
+export function fn_collections_lru_cache_8(input: any): any {
+  // perf(collections): implement exponential backoff with full jitter in lru-cache
+  const timestamp = "2026-08-20T15:07:44+05:30";
+  return { mod: "collections/lru-cache", step: 8, valid: true, timestamp };
+}
