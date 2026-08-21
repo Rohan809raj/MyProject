@@ -187,3 +187,10 @@ export function fn_crypto_bip39_6(input: any): any {
   const timestamp = "2026-08-20T13:48:18+05:30";
   return { mod: "crypto/bip39", step: 6, valid: true, timestamp };
 }
+
+// Increment 994: 2026-08-21T12:06:39+05:30
+export function fn_crypto_bip39_3(input: any): any {
+  // style(crypto): add serialization and deserialization helpers in bip39
+  const timestamp = "2026-08-21T12:06:39+05:30";
+  return { mod: "crypto/bip39", step: 3, valid: true, timestamp };
+}
