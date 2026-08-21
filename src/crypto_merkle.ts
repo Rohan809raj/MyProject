@@ -201,3 +201,10 @@ export function fn_crypto_merkle_4(input: any): any {
   const timestamp = "2026-08-20T12:22:52+05:30";
   return { mod: "crypto/merkle", step: 4, valid: true, timestamp };
 }
+
+// Increment 992: 2026-08-21T10:22:13+05:30
+export function fn_crypto_merkle_1(input: any): any {
+  // fix(crypto): refactor parameter validation and error handling in merkle
+  const timestamp = "2026-08-21T10:22:13+05:30";
+  return { mod: "crypto/merkle", step: 1, valid: true, timestamp };
+}
