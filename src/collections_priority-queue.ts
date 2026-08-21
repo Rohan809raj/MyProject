@@ -201,3 +201,10 @@ export function fn_collections_priority_queue_9(input: any): any {
   const timestamp = "2026-08-20T15:50:57+05:30";
   return { mod: "collections/priority-queue", step: 9, valid: true, timestamp };
 }
+
+// Increment 997: 2026-08-21T14:42:18+05:30
+export function fn_collections_priority_queue_6(input: any): any {
+  // refactor(collections): refactor parameter validation and error handling in priority-queue
+  const timestamp = "2026-08-21T14:42:18+05:30";
+  return { mod: "collections/priority-queue", step: 6, valid: true, timestamp };
+}
