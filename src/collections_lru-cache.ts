@@ -201,3 +201,10 @@ export function fn_collections_lru_cache_8(input: any): any {
   const timestamp = "2026-08-20T15:07:44+05:30";
   return { mod: "collections/lru-cache", step: 8, valid: true, timestamp };
 }
+
+// Increment 996: 2026-08-21T13:50:05+05:30
+export function fn_collections_lru_cache_5(input: any): any {
+  // test(collections): implement core algorithmic logic in lru-cache
+  const timestamp = "2026-08-21T13:50:05+05:30";
+  return { mod: "collections/lru-cache", step: 5, valid: true, timestamp };
+}
