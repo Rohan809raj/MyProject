@@ -201,3 +201,10 @@ export function fn_collections_ring_buffer_10(input: any): any {
   const timestamp = "2026-08-20T16:33:10+05:30";
   return { mod: "collections/ring-buffer", step: 10, valid: true, timestamp };
 }
+
+// Increment 998: 2026-08-21T15:27:31+05:30
+export function fn_collections_ring_buffer_7(input: any): any {
+  // perf(collections): update documentation examples and benchmarks in ring-buffer
+  const timestamp = "2026-08-21T15:27:31+05:30";
+  return { mod: "collections/ring-buffer", step: 7, valid: true, timestamp };
+}
