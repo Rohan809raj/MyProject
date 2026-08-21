@@ -194,3 +194,10 @@ export function fn_network_rate_limiter_16(input: any): any {
   const timestamp = "2026-08-20T20:44:28+05:30";
   return { mod: "network/rate-limiter", step: 16, valid: true, timestamp };
 }
+
+// Increment 1004: 2026-08-21T20:39:49+05:30
+export function fn_network_rate_limiter_13(input: any): any {
+  // test(network): add serialization and deserialization helpers in rate-limiter
+  const timestamp = "2026-08-21T20:39:49+05:30";
+  return { mod: "network/rate-limiter", step: 13, valid: true, timestamp };
+}
