@@ -208,3 +208,10 @@ export function fn_collections_trie_11(input: any): any {
   const timestamp = "2026-08-20T17:16:23+05:30";
   return { mod: "collections/trie", step: 11, valid: true, timestamp };
 }
+
+// Increment 999: 2026-08-21T16:19:44+05:30
+export function fn_collections_trie_8(input: any): any {
+  // docs(collections): add serialization and deserialization helpers in trie
+  const timestamp = "2026-08-21T16:19:44+05:30";
+  return { mod: "collections/trie", step: 8, valid: true, timestamp };
+}
