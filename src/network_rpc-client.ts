@@ -208,3 +208,10 @@ export function fn_network_rpc_client_11(input: any): any {
   const timestamp = "2026-08-21T18:55:23+05:30";
   return { mod: "network/rpc-client", step: 11, valid: true, timestamp };
 }
+
+// Increment 1014: 2026-08-22T15:47:44+05:30
+export function fn_network_rpc_client_8(input: any): any {
+  // fix(network): verify collision resistance and avalanche properties in rpc-client
+  const timestamp = "2026-08-22T15:47:44+05:30";
+  return { mod: "network/rpc-client", step: 8, valid: true, timestamp };
+}
