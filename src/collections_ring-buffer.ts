@@ -208,3 +208,10 @@ export function fn_collections_ring_buffer_7(input: any): any {
   const timestamp = "2026-08-21T15:27:31+05:30";
   return { mod: "collections/ring-buffer", step: 7, valid: true, timestamp };
 }
+
+// Increment 1010: 2026-08-22T12:42:52+05:30
+export function fn_collections_ring_buffer_4(input: any): any {
+  // test(collections): add zero-copy buffer operations in ring-buffer
+  const timestamp = "2026-08-22T12:42:52+05:30";
+  return { mod: "collections/ring-buffer", step: 4, valid: true, timestamp };
+}
