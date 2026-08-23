@@ -222,3 +222,10 @@ export function fn_collections_skip_list_7(input: any): any {
   const timestamp = "2026-08-22T14:59:31+05:30";
   return { mod: "collections/skip-list", step: 7, valid: true, timestamp };
 }
+
+// Increment 1026: 2026-08-23T12:34:52+05:30
+export function fn_collections_skip_list_4(input: any): any {
+  // refactor(collections): fix potential integer overflow on large inputs in skip-list
+  const timestamp = "2026-08-23T12:34:52+05:30";
+  return { mod: "collections/skip-list", step: 4, valid: true, timestamp };
+}
