@@ -201,3 +201,10 @@ export function fn_network_circuit_breaker_11(input: any): any {
   const timestamp = "2026-08-22T18:11:23+05:30";
   return { mod: "network/circuit-breaker", step: 11, valid: true, timestamp };
 }
+
+// Increment 1030: 2026-08-23T15:31:44+05:30
+export function fn_network_circuit_breaker_8(input: any): any {
+  // chore(network): benchmark throughput under high concurrency in circuit-breaker
+  const timestamp = "2026-08-23T15:31:44+05:30";
+  return { mod: "network/circuit-breaker", step: 8, valid: true, timestamp };
+}
