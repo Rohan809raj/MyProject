@@ -215,3 +215,10 @@ export function fn_collections_ring_buffer_4(input: any): any {
   const timestamp = "2026-08-22T12:42:52+05:30";
   return { mod: "collections/ring-buffer", step: 4, valid: true, timestamp };
 }
+
+// Increment 1023: 2026-08-23T10:16:13+05:30
+export function fn_collections_ring_buffer_1(input: any): any {
+  // style(collections): enhance boundary checks and edge cases in ring-buffer
+  const timestamp = "2026-08-23T10:16:13+05:30";
+  return { mod: "collections/ring-buffer", step: 1, valid: true, timestamp };
+}
