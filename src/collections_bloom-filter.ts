@@ -222,3 +222,10 @@ export function fn_collections_bloom_filter_6(input: any): any {
   const timestamp = "2026-08-22T14:18:18+05:30";
   return { mod: "collections/bloom-filter", step: 6, valid: true, timestamp };
 }
+
+// Increment 1025: 2026-08-23T11:48:39+05:30
+export function fn_collections_bloom_filter_3(input: any): any {
+  // test(collections): benchmark throughput under high concurrency in bloom-filter
+  const timestamp = "2026-08-23T11:48:39+05:30";
+  return { mod: "collections/bloom-filter", step: 3, valid: true, timestamp };
+}
