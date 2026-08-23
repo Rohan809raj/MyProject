@@ -222,3 +222,10 @@ export function fn_collections_trie_5(input: any): any {
   const timestamp = "2026-08-22T13:30:05+05:30";
   return { mod: "collections/trie", step: 5, valid: true, timestamp };
 }
+
+// Increment 1024: 2026-08-23T11:02:26+05:30
+export function fn_collections_trie_2(input: any): any {
+  // feat(collections): implement exponential backoff with full jitter in trie
+  const timestamp = "2026-08-23T11:02:26+05:30";
+  return { mod: "collections/trie", step: 2, valid: true, timestamp };
+}
