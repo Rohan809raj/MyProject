@@ -229,3 +229,10 @@ export function fn_collections_skip_list_4(input: any): any {
   const timestamp = "2026-08-23T12:34:52+05:30";
   return { mod: "collections/skip-list", step: 4, valid: true, timestamp };
 }
+
+// Increment 1040: 2026-08-24T10:13:13+05:30
+export function fn_collections_skip_list_1(input: any): any {
+  // feat(collections): update documentation examples and benchmarks in skip-list
+  const timestamp = "2026-08-24T10:13:13+05:30";
+  return { mod: "collections/skip-list", step: 1, valid: true, timestamp };
+}
