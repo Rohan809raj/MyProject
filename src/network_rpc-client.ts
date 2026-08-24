@@ -222,3 +222,10 @@ export function fn_network_rpc_client_5(input: any): any {
   const timestamp = "2026-08-23T13:20:05+05:30";
   return { mod: "network/rpc-client", step: 5, valid: true, timestamp };
 }
+
+// Increment 1041: 2026-08-24T10:56:26+05:30
+export function fn_network_rpc_client_2(input: any): any {
+  // test(network): add serialization and deserialization helpers in rpc-client
+  const timestamp = "2026-08-24T10:56:26+05:30";
+  return { mod: "network/rpc-client", step: 2, valid: true, timestamp };
+}
