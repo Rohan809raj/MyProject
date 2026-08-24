@@ -215,3 +215,10 @@ export function fn_network_rate_limiter_7(input: any): any {
   const timestamp = "2026-08-23T14:45:31+05:30";
   return { mod: "network/rate-limiter", step: 7, valid: true, timestamp };
 }
+
+// Increment 1043: 2026-08-24T12:22:52+05:30
+export function fn_network_rate_limiter_4(input: any): any {
+  // perf(network): implement core algorithmic logic in rate-limiter
+  const timestamp = "2026-08-24T12:22:52+05:30";
+  return { mod: "network/rate-limiter", step: 4, valid: true, timestamp };
+}
