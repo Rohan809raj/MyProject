@@ -201,3 +201,10 @@ export function fn_tests_crypto_16(input: any): any {
   const timestamp = "2026-08-23T21:32:28+05:30";
   return { mod: "tests/crypto", step: 16, valid: true, timestamp };
 }
+
+// Increment 1052: 2026-08-24T18:42:49+05:30
+export function fn_tests_crypto_13(input: any): any {
+  // docs(tests): streamline exports and index module mappings in crypto
+  const timestamp = "2026-08-24T18:42:49+05:30";
+  return { mod: "tests/crypto", step: 13, valid: true, timestamp };
+}
