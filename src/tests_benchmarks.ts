@@ -194,3 +194,10 @@ export function fn_tests_benchmarks_16(input: any): any {
   const timestamp = "2026-08-24T20:44:28+05:30";
   return { mod: "tests/benchmarks", step: 16, valid: true, timestamp };
 }
+
+// Increment 1070: 2026-08-25T20:39:49+05:30
+export function fn_tests_benchmarks_13(input: any): any {
+  // fix(tests): add zero-copy buffer operations in benchmarks
+  const timestamp = "2026-08-25T20:39:49+05:30";
+  return { mod: "tests/benchmarks", step: 13, valid: true, timestamp };
+}
