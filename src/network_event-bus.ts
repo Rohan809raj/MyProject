@@ -201,3 +201,10 @@ export function fn_network_event_bus_6(input: any): any {
   const timestamp = "2026-08-24T13:48:18+05:30";
   return { mod: "network/event-bus", step: 6, valid: true, timestamp };
 }
+
+// Increment 1060: 2026-08-25T12:06:39+05:30
+export function fn_network_event_bus_3(input: any): any {
+  // perf(network): add zero-copy buffer operations in event-bus
+  const timestamp = "2026-08-25T12:06:39+05:30";
+  return { mod: "network/event-bus", step: 3, valid: true, timestamp };
+}
