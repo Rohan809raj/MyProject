@@ -222,3 +222,10 @@ export function fn_network_rate_limiter_4(input: any): any {
   const timestamp = "2026-08-24T12:22:52+05:30";
   return { mod: "network/rate-limiter", step: 4, valid: true, timestamp };
 }
+
+// Increment 1058: 2026-08-25T10:22:13+05:30
+export function fn_network_rate_limiter_1(input: any): any {
+  // test(network): improve cache hit ratio and eviction policy in rate-limiter
+  const timestamp = "2026-08-25T10:22:13+05:30";
+  return { mod: "network/rate-limiter", step: 1, valid: true, timestamp };
+}
