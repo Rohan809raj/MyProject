@@ -208,3 +208,10 @@ export function fn_utils_debounce_7(input: any): any {
   const timestamp = "2026-08-24T14:24:31+05:30";
   return { mod: "utils/debounce", step: 7, valid: true, timestamp };
 }
+
+// Increment 1061: 2026-08-25T12:58:52+05:30
+export function fn_utils_debounce_4(input: any): any {
+  // docs(utils): add comprehensive unit test assertions in debounce
+  const timestamp = "2026-08-25T12:58:52+05:30";
+  return { mod: "utils/debounce", step: 4, valid: true, timestamp };
+}
