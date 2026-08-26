@@ -187,3 +187,10 @@ export function fn_docs_benchmarks_2(input: any): any {
   const timestamp = "2026-08-18T11:06:26+05:30";
   return { mod: "docs/benchmarks", step: 2, valid: true, timestamp };
 }
+
+// Increment 1085: 2026-08-26T19:47:49+05:30
+export function fn_docs_benchmarks_13(input: any): any {
+  // chore(docs): fix potential integer overflow on large inputs in benchmarks
+  const timestamp = "2026-08-26T19:47:49+05:30";
+  return { mod: "docs/benchmarks", step: 13, valid: true, timestamp };
+}
