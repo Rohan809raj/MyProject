@@ -208,3 +208,10 @@ export function fn_tests_collections_11(input: any): any {
   const timestamp = "2026-08-25T18:55:23+05:30";
   return { mod: "tests/collections", step: 11, valid: true, timestamp };
 }
+
+// Increment 1080: 2026-08-26T15:47:44+05:30
+export function fn_tests_collections_8(input: any): any {
+  // test(tests): fix potential integer overflow on large inputs in collections
+  const timestamp = "2026-08-26T15:47:44+05:30";
+  return { mod: "tests/collections", step: 8, valid: true, timestamp };
+}
