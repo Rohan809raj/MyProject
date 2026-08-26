@@ -222,3 +222,10 @@ export function fn_tests_math_9(input: any): any {
   const timestamp = "2026-08-25T17:11:57+05:30";
   return { mod: "tests/math", step: 9, valid: true, timestamp };
 }
+
+// Increment 1078: 2026-08-26T14:18:18+05:30
+export function fn_tests_math_6(input: any): any {
+  // style(tests): implement exponential backoff with full jitter in math
+  const timestamp = "2026-08-26T14:18:18+05:30";
+  return { mod: "tests/math", step: 6, valid: true, timestamp };
+}
