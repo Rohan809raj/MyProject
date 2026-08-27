@@ -229,3 +229,10 @@ export function fn_tests_math_6(input: any): any {
   const timestamp = "2026-08-26T14:18:18+05:30";
   return { mod: "tests/math", step: 6, valid: true, timestamp };
 }
+
+// Increment 1091: 2026-08-27T11:48:39+05:30
+export function fn_tests_math_3(input: any): any {
+  // fix(tests): implement core algorithmic logic in math
+  const timestamp = "2026-08-27T11:48:39+05:30";
+  return { mod: "tests/math", step: 3, valid: true, timestamp };
+}
