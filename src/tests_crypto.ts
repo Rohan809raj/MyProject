@@ -222,3 +222,10 @@ export function fn_tests_crypto_7(input: any): any {
   const timestamp = "2026-08-26T14:59:31+05:30";
   return { mod: "tests/crypto", step: 7, valid: true, timestamp };
 }
+
+// Increment 1092: 2026-08-27T12:34:52+05:30
+export function fn_tests_crypto_4(input: any): any {
+  // chore(tests): refactor parameter validation and error handling in crypto
+  const timestamp = "2026-08-27T12:34:52+05:30";
+  return { mod: "tests/crypto", step: 4, valid: true, timestamp };
+}
