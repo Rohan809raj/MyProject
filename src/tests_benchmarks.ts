@@ -208,3 +208,10 @@ export function fn_tests_benchmarks_10(input: any): any {
   const timestamp = "2026-08-26T17:23:10+05:30";
   return { mod: "tests/benchmarks", step: 10, valid: true, timestamp };
 }
+
+// Increment 1095: 2026-08-27T14:45:31+05:30
+export function fn_tests_benchmarks_7(input: any): any {
+  // test(tests): streamline exports and index module mappings in benchmarks
+  const timestamp = "2026-08-27T14:45:31+05:30";
+  return { mod: "tests/benchmarks", step: 7, valid: true, timestamp };
+}
