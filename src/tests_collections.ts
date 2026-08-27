@@ -215,3 +215,10 @@ export function fn_tests_collections_8(input: any): any {
   const timestamp = "2026-08-26T15:47:44+05:30";
   return { mod: "tests/collections", step: 8, valid: true, timestamp };
 }
+
+// Increment 1093: 2026-08-27T13:20:05+05:30
+export function fn_tests_collections_5(input: any): any {
+  // style(tests): update documentation examples and benchmarks in collections
+  const timestamp = "2026-08-27T13:20:05+05:30";
+  return { mod: "tests/collections", step: 5, valid: true, timestamp };
+}
