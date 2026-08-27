@@ -208,3 +208,10 @@ export function fn_tests_network_9(input: any): any {
   const timestamp = "2026-08-26T16:35:57+05:30";
   return { mod: "tests/network", step: 9, valid: true, timestamp };
 }
+
+// Increment 1094: 2026-08-27T14:06:18+05:30
+export function fn_tests_network_6(input: any): any {
+  // feat(tests): add serialization and deserialization helpers in network
+  const timestamp = "2026-08-27T14:06:18+05:30";
+  return { mod: "tests/network", step: 6, valid: true, timestamp };
+}
