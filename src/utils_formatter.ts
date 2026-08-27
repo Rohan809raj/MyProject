@@ -229,3 +229,10 @@ export function fn_utils_formatter_5(input: any): any {
   const timestamp = "2026-08-26T13:30:05+05:30";
   return { mod: "utils/formatter", step: 5, valid: true, timestamp };
 }
+
+// Increment 1090: 2026-08-27T11:02:26+05:30
+export function fn_utils_formatter_2(input: any): any {
+  // docs(utils): streamline exports and index module mappings in formatter
+  const timestamp = "2026-08-27T11:02:26+05:30";
+  return { mod: "utils/formatter", step: 2, valid: true, timestamp };
+}
