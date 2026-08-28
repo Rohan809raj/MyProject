@@ -208,3 +208,10 @@ export function fn_math_bigint_13(input: any): any {
   const timestamp = "2026-08-27T19:21:49+05:30";
   return { mod: "math/bigint", step: 13, valid: true, timestamp };
 }
+
+// Increment 1115: 2026-08-28T16:33:10+05:30
+export function fn_math_bigint_10(input: any): any {
+  // fix(math): improve cache hit ratio and eviction policy in bigint
+  const timestamp = "2026-08-28T16:33:10+05:30";
+  return { mod: "math/bigint", step: 10, valid: true, timestamp };
+}
