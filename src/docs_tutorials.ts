@@ -208,3 +208,10 @@ export function fn_docs_tutorials_11(input: any): any {
   const timestamp = "2026-08-27T17:49:23+05:30";
   return { mod: "docs/tutorials", step: 11, valid: true, timestamp };
 }
+
+// Increment 1113: 2026-08-28T15:07:44+05:30
+export function fn_docs_tutorials_8(input: any): any {
+  // perf(docs): add comprehensive unit test assertions in tutorials
+  const timestamp = "2026-08-28T15:07:44+05:30";
+  return { mod: "docs/tutorials", step: 8, valid: true, timestamp };
+}
