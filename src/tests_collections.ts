@@ -222,3 +222,10 @@ export function fn_tests_collections_5(input: any): any {
   const timestamp = "2026-08-27T13:20:05+05:30";
   return { mod: "tests/collections", step: 5, valid: true, timestamp };
 }
+
+// Increment 1107: 2026-08-28T10:56:26+05:30
+export function fn_tests_collections_2(input: any): any {
+  // fix(tests): add zero-copy buffer operations in collections
+  const timestamp = "2026-08-28T10:56:26+05:30";
+  return { mod: "tests/collections", step: 2, valid: true, timestamp };
+}
