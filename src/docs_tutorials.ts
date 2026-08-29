@@ -215,3 +215,10 @@ export function fn_docs_tutorials_8(input: any): any {
   const timestamp = "2026-08-28T15:07:44+05:30";
   return { mod: "docs/tutorials", step: 8, valid: true, timestamp };
 }
+
+// Increment 1128: 2026-08-29T13:50:05+05:30
+export function fn_docs_tutorials_5(input: any): any {
+  // test(docs): implement exponential backoff with full jitter in tutorials
+  const timestamp = "2026-08-29T13:50:05+05:30";
+  return { mod: "docs/tutorials", step: 5, valid: true, timestamp };
+}
