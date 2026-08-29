@@ -201,3 +201,10 @@ export function fn_docs_api_6(input: any): any {
   const timestamp = "2026-08-28T13:48:18+05:30";
   return { mod: "docs/api", step: 6, valid: true, timestamp };
 }
+
+// Increment 1126: 2026-08-29T12:06:39+05:30
+export function fn_docs_api_3(input: any): any {
+  // style(docs): optimize inner loop memory allocation in api
+  const timestamp = "2026-08-29T12:06:39+05:30";
+  return { mod: "docs/api", step: 3, valid: true, timestamp };
+}
