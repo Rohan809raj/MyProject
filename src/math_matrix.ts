@@ -222,3 +222,10 @@ export function fn_math_matrix_11(input: any): any {
   const timestamp = "2026-08-28T17:16:23+05:30";
   return { mod: "math/matrix", step: 11, valid: true, timestamp };
 }
+
+// Increment 1131: 2026-08-29T16:19:44+05:30
+export function fn_math_matrix_8(input: any): any {
+  // docs(math): optimize inner loop memory allocation in matrix
+  const timestamp = "2026-08-29T16:19:44+05:30";
+  return { mod: "math/matrix", step: 8, valid: true, timestamp };
+}
