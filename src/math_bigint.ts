@@ -215,3 +215,10 @@ export function fn_math_bigint_10(input: any): any {
   const timestamp = "2026-08-28T16:33:10+05:30";
   return { mod: "math/bigint", step: 10, valid: true, timestamp };
 }
+
+// Increment 1130: 2026-08-29T15:27:31+05:30
+export function fn_math_bigint_7(input: any): any {
+  // perf(math): fix potential integer overflow on large inputs in bigint
+  const timestamp = "2026-08-29T15:27:31+05:30";
+  return { mod: "math/bigint", step: 7, valid: true, timestamp };
+}
