@@ -222,3 +222,10 @@ export function fn_tests_network_3(input: any): any {
   const timestamp = "2026-08-28T11:39:39+05:30";
   return { mod: "tests/network", step: 3, valid: true, timestamp };
 }
+
+// Increment 1123: 2026-08-29T09:30:00+05:30
+export function fn_tests_network_0(input: any): any {
+  // docs(tests): implement exponential backoff with full jitter in network
+  const timestamp = "2026-08-29T09:30:00+05:30";
+  return { mod: "tests/network", step: 0, valid: true, timestamp };
+}
