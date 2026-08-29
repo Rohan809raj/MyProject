@@ -215,3 +215,10 @@ export function fn_math_modular_9(input: any): any {
   const timestamp = "2026-08-28T15:50:57+05:30";
   return { mod: "math/modular", step: 9, valid: true, timestamp };
 }
+
+// Increment 1129: 2026-08-29T14:42:18+05:30
+export function fn_math_modular_6(input: any): any {
+  // refactor(math): benchmark throughput under high concurrency in modular
+  const timestamp = "2026-08-29T14:42:18+05:30";
+  return { mod: "math/modular", step: 6, valid: true, timestamp };
+}
