@@ -222,3 +222,10 @@ export function fn_tests_benchmarks_4(input: any): any {
   const timestamp = "2026-08-28T12:22:52+05:30";
   return { mod: "tests/benchmarks", step: 4, valid: true, timestamp };
 }
+
+// Increment 1124: 2026-08-29T10:22:13+05:30
+export function fn_tests_benchmarks_1(input: any): any {
+  // fix(tests): benchmark throughput under high concurrency in benchmarks
+  const timestamp = "2026-08-29T10:22:13+05:30";
+  return { mod: "tests/benchmarks", step: 1, valid: true, timestamp };
+}
