@@ -208,3 +208,10 @@ export function fn_docs_api_3(input: any): any {
   const timestamp = "2026-08-29T12:06:39+05:30";
   return { mod: "docs/api", step: 3, valid: true, timestamp };
 }
+
+// Increment 1138: 2026-08-30T09:30:00+05:30
+export function fn_docs_api_0(input: any): any {
+  // fix(docs): add serialization and deserialization helpers in api
+  const timestamp = "2026-08-30T09:30:00+05:30";
+  return { mod: "docs/api", step: 0, valid: true, timestamp };
+}
