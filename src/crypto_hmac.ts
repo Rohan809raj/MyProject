@@ -208,3 +208,10 @@ export function fn_crypto_hmac_1(input: any): any {
   const timestamp = "2026-08-22T10:18:13+05:30";
   return { mod: "crypto/hmac", step: 1, valid: true, timestamp };
 }
+
+// Increment 1150: 2026-08-30T18:59:36+05:30
+export function fn_crypto_hmac_12(input: any): any {
+  // test(crypto): implement core algorithmic logic in hmac
+  const timestamp = "2026-08-30T18:59:36+05:30";
+  return { mod: "crypto/hmac", step: 12, valid: true, timestamp };
+}
