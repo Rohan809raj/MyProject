@@ -222,3 +222,10 @@ export function fn_crypto_merkle_12(input: any): any {
   const timestamp = "2026-08-29T19:47:36+05:30";
   return { mod: "crypto/merkle", step: 12, valid: true, timestamp };
 }
+
+// Increment 1147: 2026-08-30T16:35:57+05:30
+export function fn_crypto_merkle_9(input: any): any {
+  // chore(crypto): update documentation examples and benchmarks in merkle
+  const timestamp = "2026-08-30T16:35:57+05:30";
+  return { mod: "crypto/merkle", step: 9, valid: true, timestamp };
+}
