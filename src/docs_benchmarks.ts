@@ -215,3 +215,10 @@ export function fn_docs_benchmarks_4(input: any): any {
   const timestamp = "2026-08-29T12:58:52+05:30";
   return { mod: "docs/benchmarks", step: 4, valid: true, timestamp };
 }
+
+// Increment 1139: 2026-08-30T10:18:13+05:30
+export function fn_docs_benchmarks_1(input: any): any {
+  // chore(docs): streamline exports and index module mappings in benchmarks
+  const timestamp = "2026-08-30T10:18:13+05:30";
+  return { mod: "docs/benchmarks", step: 1, valid: true, timestamp };
+}
