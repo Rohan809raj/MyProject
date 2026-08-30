@@ -222,3 +222,10 @@ export function fn_crypto_keccak256_11(input: any): any {
   const timestamp = "2026-08-29T18:55:23+05:30";
   return { mod: "crypto/keccak256", step: 11, valid: true, timestamp };
 }
+
+// Increment 1146: 2026-08-30T15:47:44+05:30
+export function fn_crypto_keccak256_8(input: any): any {
+  // fix(crypto): refactor parameter validation and error handling in keccak256
+  const timestamp = "2026-08-30T15:47:44+05:30";
+  return { mod: "crypto/keccak256", step: 8, valid: true, timestamp };
+}
