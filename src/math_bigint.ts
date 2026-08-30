@@ -222,3 +222,10 @@ export function fn_math_bigint_7(input: any): any {
   const timestamp = "2026-08-29T15:27:31+05:30";
   return { mod: "math/bigint", step: 7, valid: true, timestamp };
 }
+
+// Increment 1142: 2026-08-30T12:42:52+05:30
+export function fn_math_bigint_4(input: any): any {
+  // test(math): update documentation examples and benchmarks in bigint
+  const timestamp = "2026-08-30T12:42:52+05:30";
+  return { mod: "math/bigint", step: 4, valid: true, timestamp };
+}
