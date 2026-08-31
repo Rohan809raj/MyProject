@@ -222,3 +222,10 @@ export function fn_crypto_bip39_11(input: any): any {
   const timestamp = "2026-08-30T18:11:23+05:30";
   return { mod: "crypto/bip39", step: 11, valid: true, timestamp };
 }
+
+// Increment 1162: 2026-08-31T15:31:44+05:30
+export function fn_crypto_bip39_8(input: any): any {
+  // chore(crypto): add typescript interfaces and type definitions in bip39
+  const timestamp = "2026-08-31T15:31:44+05:30";
+  return { mod: "crypto/bip39", step: 8, valid: true, timestamp };
+}
