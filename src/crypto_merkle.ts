@@ -229,3 +229,10 @@ export function fn_crypto_merkle_9(input: any): any {
   const timestamp = "2026-08-30T16:35:57+05:30";
   return { mod: "crypto/merkle", step: 9, valid: true, timestamp };
 }
+
+// Increment 1160: 2026-08-31T14:06:18+05:30
+export function fn_crypto_merkle_6(input: any): any {
+  // docs(crypto): add zero-copy buffer operations in merkle
+  const timestamp = "2026-08-31T14:06:18+05:30";
+  return { mod: "crypto/merkle", step: 6, valid: true, timestamp };
+}
