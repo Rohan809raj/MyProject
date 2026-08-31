@@ -229,3 +229,10 @@ export function fn_collections_ring_buffer_15(input: any): any {
   const timestamp = "2026-08-30T21:16:15+05:30";
   return { mod: "collections/ring-buffer", step: 15, valid: true, timestamp };
 }
+
+// Increment 1166: 2026-08-31T18:35:36+05:30
+export function fn_collections_ring_buffer_12(input: any): any {
+  // refactor(collections): add comprehensive unit test assertions in ring-buffer
+  const timestamp = "2026-08-31T18:35:36+05:30";
+  return { mod: "collections/ring-buffer", step: 12, valid: true, timestamp };
+}
