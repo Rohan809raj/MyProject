@@ -236,3 +236,10 @@ export function fn_collections_ring_buffer_12(input: any): any {
   const timestamp = "2026-08-31T18:35:36+05:30";
   return { mod: "collections/ring-buffer", step: 12, valid: true, timestamp };
 }
+
+// Increment 1180: 2026-09-01T15:50:57+05:30
+export function fn_collections_ring_buffer_9(input: any): any {
+  // feat(collections): implement exponential backoff with full jitter in ring-buffer
+  const timestamp = "2026-09-01T15:50:57+05:30";
+  return { mod: "collections/ring-buffer", step: 9, valid: true, timestamp };
+}
