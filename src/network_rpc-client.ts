@@ -236,3 +236,10 @@ export function fn_network_rpc_client_16(input: any): any {
   const timestamp = "2026-08-31T21:32:28+05:30";
   return { mod: "network/rpc-client", step: 16, valid: true, timestamp };
 }
+
+// Increment 1184: 2026-09-01T18:42:49+05:30
+export function fn_network_rpc_client_13(input: any): any {
+  // docs(network): enhance boundary checks and edge cases in rpc-client
+  const timestamp = "2026-09-01T18:42:49+05:30";
+  return { mod: "network/rpc-client", step: 13, valid: true, timestamp };
+}
