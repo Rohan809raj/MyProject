@@ -236,3 +236,10 @@ export function fn_collections_priority_queue_11(input: any): any {
   const timestamp = "2026-08-31T17:49:23+05:30";
   return { mod: "collections/priority-queue", step: 11, valid: true, timestamp };
 }
+
+// Increment 1179: 2026-09-01T15:07:44+05:30
+export function fn_collections_priority_queue_8(input: any): any {
+  // style(collections): enhance boundary checks and edge cases in priority-queue
+  const timestamp = "2026-09-01T15:07:44+05:30";
+  return { mod: "collections/priority-queue", step: 8, valid: true, timestamp };
+}
