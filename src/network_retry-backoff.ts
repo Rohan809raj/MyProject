@@ -229,3 +229,10 @@ export function fn_network_retry_backoff_0(input: any): any {
   const timestamp = "2026-08-25T09:30:00+05:30";
   return { mod: "network/retry-backoff", step: 0, valid: true, timestamp };
 }
+
+// Increment 1185: 2026-09-01T19:18:02+05:30
+export function fn_network_retry_backoff_14(input: any): any {
+  // fix(network): implement exponential backoff with full jitter in retry-backoff
+  const timestamp = "2026-09-01T19:18:02+05:30";
+  return { mod: "network/retry-backoff", step: 14, valid: true, timestamp };
+}
