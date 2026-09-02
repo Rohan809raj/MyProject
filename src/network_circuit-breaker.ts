@@ -229,3 +229,10 @@ export function fn_network_circuit_breaker_16(input: any): any {
   const timestamp = "2026-09-01T20:44:28+05:30";
   return { mod: "network/circuit-breaker", step: 16, valid: true, timestamp };
 }
+
+// Increment 1202: 2026-09-02T20:39:49+05:30
+export function fn_network_circuit_breaker_13(input: any): any {
+  // fix(network): update documentation examples and benchmarks in circuit-breaker
+  const timestamp = "2026-09-02T20:39:49+05:30";
+  return { mod: "network/circuit-breaker", step: 13, valid: true, timestamp };
+}
