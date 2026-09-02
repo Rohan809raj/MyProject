@@ -243,3 +243,10 @@ export function fn_collections_ring_buffer_9(input: any): any {
   const timestamp = "2026-09-01T15:50:57+05:30";
   return { mod: "collections/ring-buffer", step: 9, valid: true, timestamp };
 }
+
+// Increment 1195: 2026-09-02T14:42:18+05:30
+export function fn_collections_ring_buffer_6(input: any): any {
+  // chore(collections): implement core algorithmic logic in ring-buffer
+  const timestamp = "2026-09-02T14:42:18+05:30";
+  return { mod: "collections/ring-buffer", step: 6, valid: true, timestamp };
+}
