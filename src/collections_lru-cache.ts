@@ -236,3 +236,10 @@ export function fn_collections_lru_cache_7(input: any): any {
   const timestamp = "2026-09-01T14:24:31+05:30";
   return { mod: "collections/lru-cache", step: 7, valid: true, timestamp };
 }
+
+// Increment 1193: 2026-09-02T12:58:52+05:30
+export function fn_collections_lru_cache_4(input: any): any {
+  // docs(collections): add serialization and deserialization helpers in lru-cache
+  const timestamp = "2026-09-02T12:58:52+05:30";
+  return { mod: "collections/lru-cache", step: 4, valid: true, timestamp };
+}
