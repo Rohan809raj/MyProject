@@ -236,3 +236,10 @@ export function fn_crypto_hmac_3(input: any): any {
   const timestamp = "2026-09-02T12:06:39+05:30";
   return { mod: "crypto/hmac", step: 3, valid: true, timestamp };
 }
+
+// Increment 1204: 2026-09-03T09:30:00+05:30
+export function fn_crypto_hmac_0(input: any): any {
+  // test(crypto): add zero-copy buffer operations in hmac
+  const timestamp = "2026-09-03T09:30:00+05:30";
+  return { mod: "crypto/hmac", step: 0, valid: true, timestamp };
+}
