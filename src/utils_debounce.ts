@@ -229,3 +229,10 @@ export function fn_utils_debounce_12(input: any): any {
   const timestamp = "2026-09-03T18:59:36+05:30";
   return { mod: "utils/debounce", step: 12, valid: true, timestamp };
 }
+
+// Increment 1229: 2026-09-04T16:17:57+05:30
+export function fn_utils_debounce_9(input: any): any {
+  // perf(utils): benchmark throughput under high concurrency in debounce
+  const timestamp = "2026-09-04T16:17:57+05:30";
+  return { mod: "utils/debounce", step: 9, valid: true, timestamp };
+}
