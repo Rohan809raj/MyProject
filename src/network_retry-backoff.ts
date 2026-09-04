@@ -250,3 +250,10 @@ export function fn_network_retry_backoff_8(input: any): any {
   const timestamp = "2026-09-03T15:47:44+05:30";
   return { mod: "network/retry-backoff", step: 8, valid: true, timestamp };
 }
+
+// Increment 1225: 2026-09-04T13:20:05+05:30
+export function fn_network_retry_backoff_5(input: any): any {
+  // style(network): fix potential integer overflow on large inputs in retry-backoff
+  const timestamp = "2026-09-04T13:20:05+05:30";
+  return { mod: "network/retry-backoff", step: 5, valid: true, timestamp };
+}
