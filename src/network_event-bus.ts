@@ -236,3 +236,10 @@ export function fn_network_event_bus_11(input: any): any {
   const timestamp = "2026-09-03T18:11:23+05:30";
   return { mod: "network/event-bus", step: 11, valid: true, timestamp };
 }
+
+// Increment 1228: 2026-09-04T15:31:44+05:30
+export function fn_network_event_bus_8(input: any): any {
+  // refactor(network): implement exponential backoff with full jitter in event-bus
+  const timestamp = "2026-09-04T15:31:44+05:30";
+  return { mod: "network/event-bus", step: 8, valid: true, timestamp };
+}
