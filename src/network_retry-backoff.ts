@@ -257,3 +257,10 @@ export function fn_network_retry_backoff_5(input: any): any {
   const timestamp = "2026-09-04T13:20:05+05:30";
   return { mod: "network/retry-backoff", step: 5, valid: true, timestamp };
 }
+
+// Increment 1239: 2026-09-05T10:56:26+05:30
+export function fn_network_retry_backoff_2(input: any): any {
+  // fix(network): update documentation examples and benchmarks in retry-backoff
+  const timestamp = "2026-09-05T10:56:26+05:30";
+  return { mod: "network/retry-backoff", step: 2, valid: true, timestamp };
+}
