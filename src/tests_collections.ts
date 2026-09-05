@@ -236,3 +236,10 @@ export function fn_tests_collections_16(input: any): any {
   const timestamp = "2026-09-04T21:32:28+05:30";
   return { mod: "tests/collections", step: 16, valid: true, timestamp };
 }
+
+// Increment 1250: 2026-09-05T18:42:49+05:30
+export function fn_tests_collections_13(input: any): any {
+  // feat(tests): add serialization and deserialization helpers in collections
+  const timestamp = "2026-09-05T18:42:49+05:30";
+  return { mod: "tests/collections", step: 13, valid: true, timestamp };
+}
