@@ -250,3 +250,10 @@ export function fn_network_circuit_breaker_7(input: any): any {
   const timestamp = "2026-09-04T14:45:31+05:30";
   return { mod: "network/circuit-breaker", step: 7, valid: true, timestamp };
 }
+
+// Increment 1241: 2026-09-05T12:22:52+05:30
+export function fn_network_circuit_breaker_4(input: any): any {
+  // style(network): streamline exports and index module mappings in circuit-breaker
+  const timestamp = "2026-09-05T12:22:52+05:30";
+  return { mod: "network/circuit-breaker", step: 4, valid: true, timestamp };
+}
