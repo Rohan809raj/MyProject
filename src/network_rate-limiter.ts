@@ -257,3 +257,10 @@ export function fn_network_rate_limiter_6(input: any): any {
   const timestamp = "2026-09-04T14:06:18+05:30";
   return { mod: "network/rate-limiter", step: 6, valid: true, timestamp };
 }
+
+// Increment 1240: 2026-09-05T11:39:39+05:30
+export function fn_network_rate_limiter_3(input: any): any {
+  // chore(network): add serialization and deserialization helpers in rate-limiter
+  const timestamp = "2026-09-05T11:39:39+05:30";
+  return { mod: "network/rate-limiter", step: 3, valid: true, timestamp };
+}
