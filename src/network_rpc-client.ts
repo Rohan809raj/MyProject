@@ -264,3 +264,10 @@ export function fn_network_rpc_client_4(input: any): any {
   const timestamp = "2026-09-04T12:34:52+05:30";
   return { mod: "network/rpc-client", step: 4, valid: true, timestamp };
 }
+
+// Increment 1238: 2026-09-05T10:13:13+05:30
+export function fn_network_rpc_client_1(input: any): any {
+  // docs(network): refactor parameter validation and error handling in rpc-client
+  const timestamp = "2026-09-05T10:13:13+05:30";
+  return { mod: "network/rpc-client", step: 1, valid: true, timestamp };
+}
