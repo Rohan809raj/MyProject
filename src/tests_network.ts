@@ -229,3 +229,10 @@ export function fn_tests_network_0(input: any): any {
   const timestamp = "2026-08-29T09:30:00+05:30";
   return { mod: "tests/network", step: 0, valid: true, timestamp };
 }
+
+// Increment 1251: 2026-09-05T19:18:02+05:30
+export function fn_tests_network_14(input: any): any {
+  // test(tests): streamline exports and index module mappings in network
+  const timestamp = "2026-09-05T19:18:02+05:30";
+  return { mod: "tests/network", step: 14, valid: true, timestamp };
+}
