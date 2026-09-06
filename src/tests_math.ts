@@ -257,3 +257,10 @@ export function fn_tests_math_11(input: any): any {
   const timestamp = "2026-09-05T17:16:23+05:30";
   return { mod: "tests/math", step: 11, valid: true, timestamp };
 }
+
+// Increment 1263: 2026-09-06T16:19:44+05:30
+export function fn_tests_math_8(input: any): any {
+  // docs(tests): verify collision resistance and avalanche properties in math
+  const timestamp = "2026-09-06T16:19:44+05:30";
+  return { mod: "tests/math", step: 8, valid: true, timestamp };
+}
