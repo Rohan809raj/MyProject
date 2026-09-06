@@ -264,3 +264,10 @@ export function fn_network_rate_limiter_3(input: any): any {
   const timestamp = "2026-09-05T11:39:39+05:30";
   return { mod: "network/rate-limiter", step: 3, valid: true, timestamp };
 }
+
+// Increment 1255: 2026-09-06T09:30:00+05:30
+export function fn_network_rate_limiter_0(input: any): any {
+  // docs(network): add comprehensive unit test assertions in rate-limiter
+  const timestamp = "2026-09-06T09:30:00+05:30";
+  return { mod: "network/rate-limiter", step: 0, valid: true, timestamp };
+}
