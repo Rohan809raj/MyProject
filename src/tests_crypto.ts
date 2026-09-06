@@ -250,3 +250,10 @@ export function fn_tests_crypto_12(input: any): any {
   const timestamp = "2026-09-05T17:59:36+05:30";
   return { mod: "tests/crypto", step: 12, valid: true, timestamp };
 }
+
+// Increment 1264: 2026-09-06T17:11:57+05:30
+export function fn_tests_crypto_9(input: any): any {
+  // fix(tests): add zero-copy buffer operations in crypto
+  const timestamp = "2026-09-06T17:11:57+05:30";
+  return { mod: "tests/crypto", step: 9, valid: true, timestamp };
+}
