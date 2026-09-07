@@ -250,3 +250,10 @@ export function fn_tests_collections_10(input: any): any {
   const timestamp = "2026-09-06T18:03:10+05:30";
   return { mod: "tests/collections", step: 10, valid: true, timestamp };
 }
+
+// Increment 1277: 2026-09-07T14:59:31+05:30
+export function fn_tests_collections_7(input: any): any {
+  // docs(tests): implement exponential backoff with full jitter in collections
+  const timestamp = "2026-09-07T14:59:31+05:30";
+  return { mod: "tests/collections", step: 7, valid: true, timestamp };
+}
