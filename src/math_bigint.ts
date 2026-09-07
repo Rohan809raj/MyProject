@@ -236,3 +236,10 @@ export function fn_math_bigint_1(input: any): any {
   const timestamp = "2026-08-31T10:16:13+05:30";
   return { mod: "math/bigint", step: 1, valid: true, timestamp };
 }
+
+// Increment 1285: 2026-09-07T21:16:15+05:30
+export function fn_math_bigint_15(input: any): any {
+  // docs(math): optimize inner loop memory allocation in bigint
+  const timestamp = "2026-09-07T21:16:15+05:30";
+  return { mod: "math/bigint", step: 15, valid: true, timestamp };
+}
