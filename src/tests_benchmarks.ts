@@ -243,3 +243,10 @@ export function fn_tests_benchmarks_12(input: any): any {
   const timestamp = "2026-09-06T19:47:36+05:30";
   return { mod: "tests/benchmarks", step: 12, valid: true, timestamp };
 }
+
+// Increment 1279: 2026-09-07T16:35:57+05:30
+export function fn_tests_benchmarks_9(input: any): any {
+  // chore(tests): fix potential integer overflow on large inputs in benchmarks
+  const timestamp = "2026-09-07T16:35:57+05:30";
+  return { mod: "tests/benchmarks", step: 9, valid: true, timestamp };
+}
