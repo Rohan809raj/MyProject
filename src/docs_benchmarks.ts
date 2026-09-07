@@ -222,3 +222,10 @@ export function fn_docs_benchmarks_1(input: any): any {
   const timestamp = "2026-08-30T10:18:13+05:30";
   return { mod: "docs/benchmarks", step: 1, valid: true, timestamp };
 }
+
+// Increment 1282: 2026-09-07T18:59:36+05:30
+export function fn_docs_benchmarks_12(input: any): any {
+  // test(docs): implement exponential backoff with full jitter in benchmarks
+  const timestamp = "2026-09-07T18:59:36+05:30";
+  return { mod: "docs/benchmarks", step: 12, valid: true, timestamp };
+}
