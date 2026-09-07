@@ -257,3 +257,10 @@ export function fn_utils_formatter_7(input: any): any {
   const timestamp = "2026-09-06T15:27:31+05:30";
   return { mod: "utils/formatter", step: 7, valid: true, timestamp };
 }
+
+// Increment 1274: 2026-09-07T12:42:52+05:30
+export function fn_utils_formatter_4(input: any): any {
+  // test(utils): fix potential integer overflow on large inputs in formatter
+  const timestamp = "2026-09-07T12:42:52+05:30";
+  return { mod: "utils/formatter", step: 4, valid: true, timestamp };
+}
