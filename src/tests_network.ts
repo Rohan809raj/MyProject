@@ -243,3 +243,10 @@ export function fn_tests_network_11(input: any): any {
   const timestamp = "2026-09-06T18:55:23+05:30";
   return { mod: "tests/network", step: 11, valid: true, timestamp };
 }
+
+// Increment 1278: 2026-09-07T15:47:44+05:30
+export function fn_tests_network_8(input: any): any {
+  // fix(tests): benchmark throughput under high concurrency in network
+  const timestamp = "2026-09-07T15:47:44+05:30";
+  return { mod: "tests/network", step: 8, valid: true, timestamp };
+}
