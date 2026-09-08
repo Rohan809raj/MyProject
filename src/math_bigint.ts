@@ -243,3 +243,10 @@ export function fn_math_bigint_15(input: any): any {
   const timestamp = "2026-09-07T21:16:15+05:30";
   return { mod: "math/bigint", step: 15, valid: true, timestamp };
 }
+
+// Increment 1298: 2026-09-08T18:35:36+05:30
+export function fn_math_bigint_12(input: any): any {
+  // refactor(math): add serialization and deserialization helpers in bigint
+  const timestamp = "2026-09-08T18:35:36+05:30";
+  return { mod: "math/bigint", step: 12, valid: true, timestamp };
+}
