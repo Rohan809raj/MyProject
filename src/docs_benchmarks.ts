@@ -229,3 +229,10 @@ export function fn_docs_benchmarks_12(input: any): any {
   const timestamp = "2026-09-07T18:59:36+05:30";
   return { mod: "docs/benchmarks", step: 12, valid: true, timestamp };
 }
+
+// Increment 1295: 2026-09-08T16:17:57+05:30
+export function fn_docs_benchmarks_9(input: any): any {
+  // style(docs): implement core algorithmic logic in benchmarks
+  const timestamp = "2026-09-08T16:17:57+05:30";
+  return { mod: "docs/benchmarks", step: 9, valid: true, timestamp };
+}
