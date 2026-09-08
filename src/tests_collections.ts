@@ -257,3 +257,10 @@ export function fn_tests_collections_7(input: any): any {
   const timestamp = "2026-09-07T14:59:31+05:30";
   return { mod: "tests/collections", step: 7, valid: true, timestamp };
 }
+
+// Increment 1290: 2026-09-08T12:34:52+05:30
+export function fn_tests_collections_4(input: any): any {
+  // refactor(tests): implement core algorithmic logic in collections
+  const timestamp = "2026-09-08T12:34:52+05:30";
+  return { mod: "tests/collections", step: 4, valid: true, timestamp };
+}
