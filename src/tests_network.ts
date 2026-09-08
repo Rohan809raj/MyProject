@@ -250,3 +250,10 @@ export function fn_tests_network_8(input: any): any {
   const timestamp = "2026-09-07T15:47:44+05:30";
   return { mod: "tests/network", step: 8, valid: true, timestamp };
 }
+
+// Increment 1291: 2026-09-08T13:20:05+05:30
+export function fn_tests_network_5(input: any): any {
+  // perf(tests): refactor parameter validation and error handling in network
+  const timestamp = "2026-09-08T13:20:05+05:30";
+  return { mod: "tests/network", step: 5, valid: true, timestamp };
+}
