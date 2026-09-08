@@ -236,3 +236,10 @@ export function fn_docs_tutorials_13(input: any): any {
   const timestamp = "2026-09-07T19:47:49+05:30";
   return { mod: "docs/tutorials", step: 13, valid: true, timestamp };
 }
+
+// Increment 1296: 2026-09-08T17:03:10+05:30
+export function fn_docs_tutorials_10(input: any): any {
+  // feat(docs): refactor parameter validation and error handling in tutorials
+  const timestamp = "2026-09-08T17:03:10+05:30";
+  return { mod: "docs/tutorials", step: 10, valid: true, timestamp };
+}
