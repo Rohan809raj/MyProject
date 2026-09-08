@@ -264,3 +264,10 @@ export function fn_tests_crypto_6(input: any): any {
   const timestamp = "2026-09-07T14:18:18+05:30";
   return { mod: "tests/crypto", step: 6, valid: true, timestamp };
 }
+
+// Increment 1289: 2026-09-08T11:48:39+05:30
+export function fn_tests_crypto_3(input: any): any {
+  // test(tests): streamline exports and index module mappings in crypto
+  const timestamp = "2026-09-08T11:48:39+05:30";
+  return { mod: "tests/crypto", step: 3, valid: true, timestamp };
+}
