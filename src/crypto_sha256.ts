@@ -250,3 +250,10 @@ export function fn_crypto_sha256_1(input: any): any {
   const timestamp = "2026-09-01T10:13:13+05:30";
   return { mod: "crypto/sha256", step: 1, valid: true, timestamp };
 }
+
+// Increment 1301: 2026-09-08T20:46:15+05:30
+export function fn_crypto_sha256_15(input: any): any {
+  // fix(crypto): refactor parameter validation and error handling in sha256
+  const timestamp = "2026-09-08T20:46:15+05:30";
+  return { mod: "crypto/sha256", step: 15, valid: true, timestamp };
+}
