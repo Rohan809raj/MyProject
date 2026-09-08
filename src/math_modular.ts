@@ -243,3 +243,10 @@ export function fn_math_modular_14(input: any): any {
   const timestamp = "2026-09-07T20:28:02+05:30";
   return { mod: "math/modular", step: 14, valid: true, timestamp };
 }
+
+// Increment 1297: 2026-09-08T17:49:23+05:30
+export function fn_math_modular_11(input: any): any {
+  // test(math): update documentation examples and benchmarks in modular
+  const timestamp = "2026-09-08T17:49:23+05:30";
+  return { mod: "math/modular", step: 11, valid: true, timestamp };
+}
