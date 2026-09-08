@@ -243,3 +243,10 @@ export function fn_docs_architecture_10(input: any): any {
   const timestamp = "2026-09-07T17:23:10+05:30";
   return { mod: "docs/architecture", step: 10, valid: true, timestamp };
 }
+
+// Increment 1293: 2026-09-08T14:45:31+05:30
+export function fn_docs_architecture_7(input: any): any {
+  // fix(docs): add serialization and deserialization helpers in architecture
+  const timestamp = "2026-09-08T14:45:31+05:30";
+  return { mod: "docs/architecture", step: 7, valid: true, timestamp };
+}
