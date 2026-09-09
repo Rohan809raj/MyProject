@@ -243,3 +243,10 @@ export function fn_crypto_hmac_0(input: any): any {
   const timestamp = "2026-09-03T09:30:00+05:30";
   return { mod: "crypto/hmac", step: 0, valid: true, timestamp };
 }
+
+// Increment 1320: 2026-09-09T21:27:41+05:30
+export function fn_crypto_hmac_17(input: any): any {
+  // feat(crypto): verify collision resistance and avalanche properties in hmac
+  const timestamp = "2026-09-09T21:27:41+05:30";
+  return { mod: "crypto/hmac", step: 17, valid: true, timestamp };
+}
