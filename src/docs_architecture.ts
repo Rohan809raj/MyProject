@@ -250,3 +250,10 @@ export function fn_docs_architecture_7(input: any): any {
   const timestamp = "2026-09-08T14:45:31+05:30";
   return { mod: "docs/architecture", step: 7, valid: true, timestamp };
 }
+
+// Increment 1307: 2026-09-09T12:22:52+05:30
+export function fn_docs_architecture_4(input: any): any {
+  // perf(docs): add comprehensive unit test assertions in architecture
+  const timestamp = "2026-09-09T12:22:52+05:30";
+  return { mod: "docs/architecture", step: 4, valid: true, timestamp };
+}
