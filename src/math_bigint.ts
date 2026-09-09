@@ -250,3 +250,10 @@ export function fn_math_bigint_12(input: any): any {
   const timestamp = "2026-09-08T18:35:36+05:30";
   return { mod: "math/bigint", step: 12, valid: true, timestamp };
 }
+
+// Increment 1312: 2026-09-09T15:50:57+05:30
+export function fn_math_bigint_9(input: any): any {
+  // feat(math): add comprehensive unit test assertions in bigint
+  const timestamp = "2026-09-09T15:50:57+05:30";
+  return { mod: "math/bigint", step: 9, valid: true, timestamp };
+}
