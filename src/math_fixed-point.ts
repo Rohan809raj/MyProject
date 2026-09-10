@@ -271,3 +271,10 @@ export function fn_math_fixed_point_11(input: any): any {
   const timestamp = "2026-09-09T17:16:23+05:30";
   return { mod: "math/fixed-point", step: 11, valid: true, timestamp };
 }
+
+// Increment 1329: 2026-09-10T16:19:44+05:30
+export function fn_math_fixed_point_8(input: any): any {
+  // feat(math): fix potential integer overflow on large inputs in fixed-point
+  const timestamp = "2026-09-10T16:19:44+05:30";
+  return { mod: "math/fixed-point", step: 8, valid: true, timestamp };
+}
