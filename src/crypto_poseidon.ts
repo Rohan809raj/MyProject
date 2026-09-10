@@ -257,3 +257,10 @@ export function fn_crypto_poseidon_15(input: any): any {
   const timestamp = "2026-09-09T20:01:15+05:30";
   return { mod: "crypto/poseidon", step: 15, valid: true, timestamp };
 }
+
+// Increment 1333: 2026-09-10T19:47:36+05:30
+export function fn_crypto_poseidon_12(input: any): any {
+  // docs(crypto): benchmark throughput under high concurrency in poseidon
+  const timestamp = "2026-09-10T19:47:36+05:30";
+  return { mod: "crypto/poseidon", step: 12, valid: true, timestamp };
+}
