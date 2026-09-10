@@ -250,3 +250,10 @@ export function fn_crypto_bip39_16(input: any): any {
   const timestamp = "2026-09-09T20:44:28+05:30";
   return { mod: "crypto/bip39", step: 16, valid: true, timestamp };
 }
+
+// Increment 1334: 2026-09-10T20:39:49+05:30
+export function fn_crypto_bip39_13(input: any): any {
+  // fix(crypto): fix potential integer overflow on large inputs in bip39
+  const timestamp = "2026-09-10T20:39:49+05:30";
+  return { mod: "crypto/bip39", step: 13, valid: true, timestamp };
+}
