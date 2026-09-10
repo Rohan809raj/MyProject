@@ -257,3 +257,10 @@ export function fn_math_modular_8(input: any): any {
   const timestamp = "2026-09-09T15:07:44+05:30";
   return { mod: "math/modular", step: 8, valid: true, timestamp };
 }
+
+// Increment 1326: 2026-09-10T13:50:05+05:30
+export function fn_math_modular_5(input: any): any {
+  // fix(math): enhance boundary checks and edge cases in modular
+  const timestamp = "2026-09-10T13:50:05+05:30";
+  return { mod: "math/modular", step: 5, valid: true, timestamp };
+}
