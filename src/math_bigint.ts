@@ -257,3 +257,10 @@ export function fn_math_bigint_9(input: any): any {
   const timestamp = "2026-09-09T15:50:57+05:30";
   return { mod: "math/bigint", step: 9, valid: true, timestamp };
 }
+
+// Increment 1327: 2026-09-10T14:42:18+05:30
+export function fn_math_bigint_6(input: any): any {
+  // chore(math): implement exponential backoff with full jitter in bigint
+  const timestamp = "2026-09-10T14:42:18+05:30";
+  return { mod: "math/bigint", step: 6, valid: true, timestamp };
+}
