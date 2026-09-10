@@ -250,3 +250,10 @@ export function fn_docs_tutorials_7(input: any): any {
   const timestamp = "2026-09-09T14:24:31+05:30";
   return { mod: "docs/tutorials", step: 7, valid: true, timestamp };
 }
+
+// Increment 1325: 2026-09-10T12:58:52+05:30
+export function fn_docs_tutorials_4(input: any): any {
+  // docs(docs): optimize inner loop memory allocation in tutorials
+  const timestamp = "2026-09-10T12:58:52+05:30";
+  return { mod: "docs/tutorials", step: 4, valid: true, timestamp };
+}
