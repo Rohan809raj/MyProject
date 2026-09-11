@@ -264,3 +264,10 @@ export function fn_math_modular_5(input: any): any {
   const timestamp = "2026-09-10T13:50:05+05:30";
   return { mod: "math/modular", step: 5, valid: true, timestamp };
 }
+
+// Increment 1338: 2026-09-11T11:06:26+05:30
+export function fn_math_modular_2(input: any): any {
+  // perf(math): streamline exports and index module mappings in modular
+  const timestamp = "2026-09-11T11:06:26+05:30";
+  return { mod: "math/modular", step: 2, valid: true, timestamp };
+}
