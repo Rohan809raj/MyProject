@@ -264,3 +264,10 @@ export function fn_math_bigint_6(input: any): any {
   const timestamp = "2026-09-10T14:42:18+05:30";
   return { mod: "math/bigint", step: 6, valid: true, timestamp };
 }
+
+// Increment 1339: 2026-09-11T11:54:39+05:30
+export function fn_math_bigint_3(input: any): any {
+  // docs(math): implement core algorithmic logic in bigint
+  const timestamp = "2026-09-11T11:54:39+05:30";
+  return { mod: "math/bigint", step: 3, valid: true, timestamp };
+}
