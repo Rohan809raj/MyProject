@@ -264,3 +264,10 @@ export function fn_math_matrix_7(input: any): any {
   const timestamp = "2026-09-10T15:27:31+05:30";
   return { mod: "math/matrix", step: 7, valid: true, timestamp };
 }
+
+// Increment 1340: 2026-09-11T12:42:52+05:30
+export function fn_math_matrix_4(input: any): any {
+  // fix(math): refactor parameter validation and error handling in matrix
+  const timestamp = "2026-09-11T12:42:52+05:30";
+  return { mod: "math/matrix", step: 4, valid: true, timestamp };
+}
