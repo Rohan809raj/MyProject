@@ -271,3 +271,10 @@ export function fn_math_bigint_3(input: any): any {
   const timestamp = "2026-09-11T11:54:39+05:30";
   return { mod: "math/bigint", step: 3, valid: true, timestamp };
 }
+
+// Increment 1352: 2026-09-12T09:30:00+05:30
+export function fn_math_bigint_0(input: any): any {
+  // refactor(math): improve cache hit ratio and eviction policy in bigint
+  const timestamp = "2026-09-12T09:30:00+05:30";
+  return { mod: "math/bigint", step: 0, valid: true, timestamp };
+}
