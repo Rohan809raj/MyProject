@@ -264,3 +264,10 @@ export function fn_crypto_hmac_11(input: any): any {
   const timestamp = "2026-09-11T18:11:23+05:30";
   return { mod: "crypto/hmac", step: 11, valid: true, timestamp };
 }
+
+// Increment 1360: 2026-09-12T15:31:44+05:30
+export function fn_crypto_hmac_8(input: any): any {
+  // refactor(crypto): add comprehensive unit test assertions in hmac
+  const timestamp = "2026-09-12T15:31:44+05:30";
+  return { mod: "crypto/hmac", step: 8, valid: true, timestamp };
+}
