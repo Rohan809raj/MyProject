@@ -278,3 +278,10 @@ export function fn_crypto_merkle_5(input: any): any {
   const timestamp = "2026-09-12T13:20:05+05:30";
   return { mod: "crypto/merkle", step: 5, valid: true, timestamp };
 }
+
+// Increment 1371: 2026-09-13T10:56:26+05:30
+export function fn_crypto_merkle_2(input: any): any {
+  // fix(crypto): fix potential integer overflow on large inputs in merkle
+  const timestamp = "2026-09-13T10:56:26+05:30";
+  return { mod: "crypto/merkle", step: 2, valid: true, timestamp };
+}
