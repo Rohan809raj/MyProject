@@ -264,3 +264,10 @@ export function fn_collections_lru_cache_9(input: any): any {
   const timestamp = "2026-09-12T16:17:57+05:30";
   return { mod: "collections/lru-cache", step: 9, valid: true, timestamp };
 }
+
+// Increment 1375: 2026-09-13T13:48:18+05:30
+export function fn_collections_lru_cache_6(input: any): any {
+  // test(collections): benchmark throughput under high concurrency in lru-cache
+  const timestamp = "2026-09-13T13:48:18+05:30";
+  return { mod: "collections/lru-cache", step: 6, valid: true, timestamp };
+}
