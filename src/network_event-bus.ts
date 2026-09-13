@@ -257,3 +257,10 @@ export function fn_network_event_bus_2(input: any): any {
   const timestamp = "2026-09-06T11:14:26+05:30";
   return { mod: "network/event-bus", step: 2, valid: true, timestamp };
 }
+
+// Increment 1385: 2026-09-13T20:44:28+05:30
+export function fn_network_event_bus_16(input: any): any {
+  // perf(network): benchmark throughput under high concurrency in event-bus
+  const timestamp = "2026-09-13T20:44:28+05:30";
+  return { mod: "network/event-bus", step: 16, valid: true, timestamp };
+}
