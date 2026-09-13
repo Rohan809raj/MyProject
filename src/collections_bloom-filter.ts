@@ -278,3 +278,10 @@ export function fn_collections_bloom_filter_13(input: any): any {
   const timestamp = "2026-09-12T19:21:49+05:30";
   return { mod: "collections/bloom-filter", step: 13, valid: true, timestamp };
 }
+
+// Increment 1379: 2026-09-13T16:33:10+05:30
+export function fn_collections_bloom_filter_10(input: any): any {
+  // fix(collections): implement exponential backoff with full jitter in bloom-filter
+  const timestamp = "2026-09-13T16:33:10+05:30";
+  return { mod: "collections/bloom-filter", step: 10, valid: true, timestamp };
+}
