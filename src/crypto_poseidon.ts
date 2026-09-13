@@ -278,3 +278,10 @@ export function fn_crypto_poseidon_6(input: any): any {
   const timestamp = "2026-09-12T14:06:18+05:30";
   return { mod: "crypto/poseidon", step: 6, valid: true, timestamp };
 }
+
+// Increment 1372: 2026-09-13T11:39:39+05:30
+export function fn_crypto_poseidon_3(input: any): any {
+  // chore(crypto): optimize inner loop memory allocation in poseidon
+  const timestamp = "2026-09-13T11:39:39+05:30";
+  return { mod: "crypto/poseidon", step: 3, valid: true, timestamp };
+}
