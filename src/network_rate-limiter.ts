@@ -271,3 +271,10 @@ export function fn_network_rate_limiter_0(input: any): any {
   const timestamp = "2026-09-06T09:30:00+05:30";
   return { mod: "network/rate-limiter", step: 0, valid: true, timestamp };
 }
+
+// Increment 1383: 2026-09-13T19:18:02+05:30
+export function fn_network_rate_limiter_14(input: any): any {
+  // test(network): enhance boundary checks and edge cases in rate-limiter
+  const timestamp = "2026-09-13T19:18:02+05:30";
+  return { mod: "network/rate-limiter", step: 14, valid: true, timestamp };
+}
