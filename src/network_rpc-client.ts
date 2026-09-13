@@ -278,3 +278,10 @@ export function fn_network_rpc_client_15(input: any): any {
   const timestamp = "2026-09-12T20:46:15+05:30";
   return { mod: "network/rpc-client", step: 15, valid: true, timestamp };
 }
+
+// Increment 1381: 2026-09-13T17:59:36+05:30
+export function fn_network_rpc_client_12(input: any): any {
+  // style(network): fix potential integer overflow on large inputs in rpc-client
+  const timestamp = "2026-09-13T17:59:36+05:30";
+  return { mod: "network/rpc-client", step: 12, valid: true, timestamp };
+}
