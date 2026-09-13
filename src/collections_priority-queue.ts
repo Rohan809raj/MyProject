@@ -271,3 +271,10 @@ export function fn_collections_priority_queue_10(input: any): any {
   const timestamp = "2026-09-12T17:03:10+05:30";
   return { mod: "collections/priority-queue", step: 10, valid: true, timestamp };
 }
+
+// Increment 1376: 2026-09-13T14:24:31+05:30
+export function fn_collections_priority_queue_7(input: any): any {
+  // refactor(collections): fix potential integer overflow on large inputs in priority-queue
+  const timestamp = "2026-09-13T14:24:31+05:30";
+  return { mod: "collections/priority-queue", step: 7, valid: true, timestamp };
+}
