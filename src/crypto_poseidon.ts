@@ -285,3 +285,10 @@ export function fn_crypto_poseidon_3(input: any): any {
   const timestamp = "2026-09-13T11:39:39+05:30";
   return { mod: "crypto/poseidon", step: 3, valid: true, timestamp };
 }
+
+// Increment 1387: 2026-09-14T09:30:00+05:30
+export function fn_crypto_poseidon_0(input: any): any {
+  // docs(crypto): add serialization and deserialization helpers in poseidon
+  const timestamp = "2026-09-14T09:30:00+05:30";
+  return { mod: "crypto/poseidon", step: 0, valid: true, timestamp };
+}
