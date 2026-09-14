@@ -264,3 +264,10 @@ export function fn_network_event_bus_16(input: any): any {
   const timestamp = "2026-09-13T20:44:28+05:30";
   return { mod: "network/event-bus", step: 16, valid: true, timestamp };
 }
+
+// Increment 1400: 2026-09-14T20:39:49+05:30
+export function fn_network_event_bus_13(input: any): any {
+  // test(network): refactor parameter validation and error handling in event-bus
+  const timestamp = "2026-09-14T20:39:49+05:30";
+  return { mod: "network/event-bus", step: 13, valid: true, timestamp };
+}
