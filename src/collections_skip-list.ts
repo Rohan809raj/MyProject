@@ -292,3 +292,10 @@ export function fn_collections_skip_list_11(input: any): any {
   const timestamp = "2026-09-13T17:16:23+05:30";
   return { mod: "collections/skip-list", step: 11, valid: true, timestamp };
 }
+
+// Increment 1395: 2026-09-14T16:19:44+05:30
+export function fn_collections_skip_list_8(input: any): any {
+  // docs(collections): refactor parameter validation and error handling in skip-list
+  const timestamp = "2026-09-14T16:19:44+05:30";
+  return { mod: "collections/skip-list", step: 8, valid: true, timestamp };
+}
