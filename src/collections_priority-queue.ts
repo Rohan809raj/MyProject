@@ -278,3 +278,10 @@ export function fn_collections_priority_queue_7(input: any): any {
   const timestamp = "2026-09-13T14:24:31+05:30";
   return { mod: "collections/priority-queue", step: 7, valid: true, timestamp };
 }
+
+// Increment 1391: 2026-09-14T12:58:52+05:30
+export function fn_collections_priority_queue_4(input: any): any {
+  // feat(collections): update documentation examples and benchmarks in priority-queue
+  const timestamp = "2026-09-14T12:58:52+05:30";
+  return { mod: "collections/priority-queue", step: 4, valid: true, timestamp };
+}
