@@ -285,3 +285,10 @@ export function fn_collections_ring_buffer_8(input: any): any {
   const timestamp = "2026-09-13T15:07:44+05:30";
   return { mod: "collections/ring-buffer", step: 8, valid: true, timestamp };
 }
+
+// Increment 1392: 2026-09-14T13:50:05+05:30
+export function fn_collections_ring_buffer_5(input: any): any {
+  // test(collections): add serialization and deserialization helpers in ring-buffer
+  const timestamp = "2026-09-14T13:50:05+05:30";
+  return { mod: "collections/ring-buffer", step: 5, valid: true, timestamp };
+}
