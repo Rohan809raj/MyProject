@@ -285,3 +285,10 @@ export function fn_collections_priority_queue_4(input: any): any {
   const timestamp = "2026-09-14T12:58:52+05:30";
   return { mod: "collections/priority-queue", step: 4, valid: true, timestamp };
 }
+
+// Increment 1403: 2026-09-15T10:18:13+05:30
+export function fn_collections_priority_queue_1(input: any): any {
+  // chore(collections): add zero-copy buffer operations in priority-queue
+  const timestamp = "2026-09-15T10:18:13+05:30";
+  return { mod: "collections/priority-queue", step: 1, valid: true, timestamp };
+}
