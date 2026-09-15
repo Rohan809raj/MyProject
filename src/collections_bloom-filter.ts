@@ -292,3 +292,10 @@ export function fn_collections_bloom_filter_7(input: any): any {
   const timestamp = "2026-09-14T15:27:31+05:30";
   return { mod: "collections/bloom-filter", step: 7, valid: true, timestamp };
 }
+
+// Increment 1406: 2026-09-15T12:42:52+05:30
+export function fn_collections_bloom_filter_4(input: any): any {
+  // test(collections): improve cache hit ratio and eviction policy in bloom-filter
+  const timestamp = "2026-09-15T12:42:52+05:30";
+  return { mod: "collections/bloom-filter", step: 4, valid: true, timestamp };
+}
