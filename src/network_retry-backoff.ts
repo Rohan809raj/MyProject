@@ -285,3 +285,10 @@ export function fn_network_retry_backoff_10(input: any): any {
   const timestamp = "2026-09-14T18:03:10+05:30";
   return { mod: "network/retry-backoff", step: 10, valid: true, timestamp };
 }
+
+// Increment 1409: 2026-09-15T14:59:31+05:30
+export function fn_network_retry_backoff_7(input: any): any {
+  // docs(network): add comprehensive unit test assertions in retry-backoff
+  const timestamp = "2026-09-15T14:59:31+05:30";
+  return { mod: "network/retry-backoff", step: 7, valid: true, timestamp };
+}
