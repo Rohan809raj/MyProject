@@ -271,3 +271,10 @@ export function fn_tests_collections_1(input: any): any {
   const timestamp = "2026-09-09T10:13:13+05:30";
   return { mod: "tests/collections", step: 1, valid: true, timestamp };
 }
+
+// Increment 1433: 2026-09-16T20:46:15+05:30
+export function fn_tests_collections_15(input: any): any {
+  // fix(tests): benchmark throughput under high concurrency in collections
+  const timestamp = "2026-09-16T20:46:15+05:30";
+  return { mod: "tests/collections", step: 15, valid: true, timestamp };
+}
