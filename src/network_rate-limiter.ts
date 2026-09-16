@@ -292,3 +292,10 @@ export function fn_network_rate_limiter_8(input: any): any {
   const timestamp = "2026-09-15T15:47:44+05:30";
   return { mod: "network/rate-limiter", step: 8, valid: true, timestamp };
 }
+
+// Increment 1423: 2026-09-16T13:20:05+05:30
+export function fn_network_rate_limiter_5(input: any): any {
+  // perf(network): benchmark throughput under high concurrency in rate-limiter
+  const timestamp = "2026-09-16T13:20:05+05:30";
+  return { mod: "network/rate-limiter", step: 5, valid: true, timestamp };
+}
