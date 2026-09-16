@@ -299,3 +299,10 @@ export function fn_collections_bloom_filter_4(input: any): any {
   const timestamp = "2026-09-15T12:42:52+05:30";
   return { mod: "collections/bloom-filter", step: 4, valid: true, timestamp };
 }
+
+// Increment 1419: 2026-09-16T10:16:13+05:30
+export function fn_collections_bloom_filter_1(input: any): any {
+  // style(collections): fix potential integer overflow on large inputs in bloom-filter
+  const timestamp = "2026-09-16T10:16:13+05:30";
+  return { mod: "collections/bloom-filter", step: 1, valid: true, timestamp };
+}
