@@ -299,3 +299,10 @@ export function fn_collections_trie_3(input: any): any {
   const timestamp = "2026-09-15T11:54:39+05:30";
   return { mod: "collections/trie", step: 3, valid: true, timestamp };
 }
+
+// Increment 1418: 2026-09-16T09:30:00+05:30
+export function fn_collections_trie_0(input: any): any {
+  // chore(collections): benchmark throughput under high concurrency in trie
+  const timestamp = "2026-09-16T09:30:00+05:30";
+  return { mod: "collections/trie", step: 0, valid: true, timestamp };
+}
