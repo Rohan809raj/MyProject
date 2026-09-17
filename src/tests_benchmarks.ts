@@ -271,3 +271,10 @@ export function fn_tests_benchmarks_0(input: any): any {
   const timestamp = "2026-09-10T09:30:00+05:30";
   return { mod: "tests/benchmarks", step: 0, valid: true, timestamp };
 }
+
+// Increment 1449: 2026-09-17T19:18:02+05:30
+export function fn_tests_benchmarks_14(input: any): any {
+  // fix(tests): add serialization and deserialization helpers in benchmarks
+  const timestamp = "2026-09-17T19:18:02+05:30";
+  return { mod: "tests/benchmarks", step: 14, valid: true, timestamp };
+}
