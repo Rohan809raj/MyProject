@@ -257,3 +257,10 @@ export function fn_docs_benchmarks_0(input: any): any {
   const timestamp = "2026-09-11T09:30:00+05:30";
   return { mod: "docs/benchmarks", step: 0, valid: true, timestamp };
 }
+
+// Increment 1452: 2026-09-17T21:27:41+05:30
+export function fn_docs_benchmarks_17(input: any): any {
+  // feat(docs): refactor parameter validation and error handling in benchmarks
+  const timestamp = "2026-09-17T21:27:41+05:30";
+  return { mod: "docs/benchmarks", step: 17, valid: true, timestamp };
+}
