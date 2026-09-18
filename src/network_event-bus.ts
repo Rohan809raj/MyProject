@@ -292,3 +292,10 @@ export function fn_network_event_bus_4(input: any): any {
   const timestamp = "2026-09-17T12:22:52+05:30";
   return { mod: "network/event-bus", step: 4, valid: true, timestamp };
 }
+
+// Increment 1454: 2026-09-18T10:22:13+05:30
+export function fn_network_event_bus_1(input: any): any {
+  // test(network): add comprehensive unit test assertions in event-bus
+  const timestamp = "2026-09-18T10:22:13+05:30";
+  return { mod: "network/event-bus", step: 1, valid: true, timestamp };
+}
