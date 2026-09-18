@@ -292,3 +292,10 @@ export function fn_tests_crypto_11(input: any): any {
   const timestamp = "2026-09-17T17:16:23+05:30";
   return { mod: "tests/crypto", step: 11, valid: true, timestamp };
 }
+
+// Increment 1461: 2026-09-18T16:19:44+05:30
+export function fn_tests_crypto_8(input: any): any {
+  // feat(tests): improve cache hit ratio and eviction policy in crypto
+  const timestamp = "2026-09-18T16:19:44+05:30";
+  return { mod: "tests/crypto", step: 8, valid: true, timestamp };
+}
