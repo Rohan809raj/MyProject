@@ -292,3 +292,10 @@ export function fn_tests_collections_9(input: any): any {
   const timestamp = "2026-09-18T17:11:57+05:30";
   return { mod: "tests/collections", step: 9, valid: true, timestamp };
 }
+
+// Increment 1474: 2026-09-19T14:18:18+05:30
+export function fn_tests_collections_6(input: any): any {
+  // style(tests): optimize inner loop memory allocation in collections
+  const timestamp = "2026-09-19T14:18:18+05:30";
+  return { mod: "tests/collections", step: 6, valid: true, timestamp };
+}
