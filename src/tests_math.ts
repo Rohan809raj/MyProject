@@ -299,3 +299,10 @@ export function fn_tests_math_7(input: any): any {
   const timestamp = "2026-09-18T15:27:31+05:30";
   return { mod: "tests/math", step: 7, valid: true, timestamp };
 }
+
+// Increment 1472: 2026-09-19T12:42:52+05:30
+export function fn_tests_math_4(input: any): any {
+  // fix(tests): benchmark throughput under high concurrency in math
+  const timestamp = "2026-09-19T12:42:52+05:30";
+  return { mod: "tests/math", step: 4, valid: true, timestamp };
+}
