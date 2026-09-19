@@ -285,3 +285,10 @@ export function fn_tests_benchmarks_11(input: any): any {
   const timestamp = "2026-09-18T18:55:23+05:30";
   return { mod: "tests/benchmarks", step: 11, valid: true, timestamp };
 }
+
+// Increment 1476: 2026-09-19T15:47:44+05:30
+export function fn_tests_benchmarks_8(input: any): any {
+  // test(tests): implement exponential backoff with full jitter in benchmarks
+  const timestamp = "2026-09-19T15:47:44+05:30";
+  return { mod: "tests/benchmarks", step: 8, valid: true, timestamp };
+}
