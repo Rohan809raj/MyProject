@@ -278,3 +278,10 @@ export function fn_math_bigint_0(input: any): any {
   const timestamp = "2026-09-12T09:30:00+05:30";
   return { mod: "math/bigint", step: 0, valid: true, timestamp };
 }
+
+// Increment 1482: 2026-09-19T20:28:02+05:30
+export function fn_math_bigint_14(input: any): any {
+  // style(math): benchmark throughput under high concurrency in bigint
+  const timestamp = "2026-09-19T20:28:02+05:30";
+  return { mod: "math/bigint", step: 14, valid: true, timestamp };
+}
