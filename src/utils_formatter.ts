@@ -299,3 +299,10 @@ export function fn_utils_formatter_6(input: any): any {
   const timestamp = "2026-09-18T14:42:18+05:30";
   return { mod: "utils/formatter", step: 6, valid: true, timestamp };
 }
+
+// Increment 1471: 2026-09-19T11:54:39+05:30
+export function fn_utils_formatter_3(input: any): any {
+  // docs(utils): implement exponential backoff with full jitter in formatter
+  const timestamp = "2026-09-19T11:54:39+05:30";
+  return { mod: "utils/formatter", step: 3, valid: true, timestamp };
+}
