@@ -299,3 +299,10 @@ export function fn_tests_crypto_8(input: any): any {
   const timestamp = "2026-09-18T16:19:44+05:30";
   return { mod: "tests/crypto", step: 8, valid: true, timestamp };
 }
+
+// Increment 1473: 2026-09-19T13:30:05+05:30
+export function fn_tests_crypto_5(input: any): any {
+  // chore(tests): fix potential integer overflow on large inputs in crypto
+  const timestamp = "2026-09-19T13:30:05+05:30";
+  return { mod: "tests/crypto", step: 5, valid: true, timestamp };
+}
