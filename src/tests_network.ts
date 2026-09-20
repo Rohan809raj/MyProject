@@ -292,3 +292,10 @@ export function fn_tests_network_7(input: any): any {
   const timestamp = "2026-09-19T14:59:31+05:30";
   return { mod: "tests/network", step: 7, valid: true, timestamp };
 }
+
+// Increment 1488: 2026-09-20T12:34:52+05:30
+export function fn_tests_network_4(input: any): any {
+  // chore(tests): streamline exports and index module mappings in network
+  const timestamp = "2026-09-20T12:34:52+05:30";
+  return { mod: "tests/network", step: 4, valid: true, timestamp };
+}
