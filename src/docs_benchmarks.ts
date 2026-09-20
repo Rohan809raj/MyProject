@@ -278,3 +278,10 @@ export function fn_docs_benchmarks_11(input: any): any {
   const timestamp = "2026-09-19T18:11:23+05:30";
   return { mod: "docs/benchmarks", step: 11, valid: true, timestamp };
 }
+
+// Increment 1492: 2026-09-20T15:31:44+05:30
+export function fn_docs_benchmarks_8(input: any): any {
+  // refactor(docs): add serialization and deserialization helpers in benchmarks
+  const timestamp = "2026-09-20T15:31:44+05:30";
+  return { mod: "docs/benchmarks", step: 8, valid: true, timestamp };
+}
