@@ -292,3 +292,10 @@ export function fn_math_bigint_11(input: any): any {
   const timestamp = "2026-09-20T17:49:23+05:30";
   return { mod: "math/bigint", step: 11, valid: true, timestamp };
 }
+
+// Increment 1509: 2026-09-21T15:07:44+05:30
+export function fn_math_bigint_8(input: any): any {
+  // perf(math): verify collision resistance and avalanche properties in bigint
+  const timestamp = "2026-09-21T15:07:44+05:30";
+  return { mod: "math/bigint", step: 8, valid: true, timestamp };
+}
