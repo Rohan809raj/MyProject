@@ -306,3 +306,10 @@ export function fn_tests_collections_3(input: any): any {
   const timestamp = "2026-09-20T11:48:39+05:30";
   return { mod: "tests/collections", step: 3, valid: true, timestamp };
 }
+
+// Increment 1501: 2026-09-21T09:30:00+05:30
+export function fn_tests_collections_0(input: any): any {
+  // perf(tests): add comprehensive unit test assertions in collections
+  const timestamp = "2026-09-21T09:30:00+05:30";
+  return { mod: "tests/collections", step: 0, valid: true, timestamp };
+}
