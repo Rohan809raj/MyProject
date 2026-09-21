@@ -285,3 +285,10 @@ export function fn_crypto_hmac_2(input: any): any {
   const timestamp = "2026-09-14T11:14:26+05:30";
   return { mod: "crypto/hmac", step: 2, valid: true, timestamp };
 }
+
+// Increment 1517: 2026-09-21T20:44:28+05:30
+export function fn_crypto_hmac_16(input: any): any {
+  // perf(crypto): add typescript interfaces and type definitions in hmac
+  const timestamp = "2026-09-21T20:44:28+05:30";
+  return { mod: "crypto/hmac", step: 16, valid: true, timestamp };
+}
