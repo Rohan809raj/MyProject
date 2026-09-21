@@ -299,3 +299,10 @@ export function fn_tests_benchmarks_5(input: any): any {
   const timestamp = "2026-09-20T13:20:05+05:30";
   return { mod: "tests/benchmarks", step: 5, valid: true, timestamp };
 }
+
+// Increment 1503: 2026-09-21T10:56:26+05:30
+export function fn_tests_benchmarks_2(input: any): any {
+  // fix(tests): improve cache hit ratio and eviction policy in benchmarks
+  const timestamp = "2026-09-21T10:56:26+05:30";
+  return { mod: "tests/benchmarks", step: 2, valid: true, timestamp };
+}
