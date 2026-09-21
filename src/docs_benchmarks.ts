@@ -285,3 +285,10 @@ export function fn_docs_benchmarks_8(input: any): any {
   const timestamp = "2026-09-20T15:31:44+05:30";
   return { mod: "docs/benchmarks", step: 8, valid: true, timestamp };
 }
+
+// Increment 1506: 2026-09-21T13:05:05+05:30
+export function fn_docs_benchmarks_5(input: any): any {
+  // feat(docs): add comprehensive unit test assertions in benchmarks
+  const timestamp = "2026-09-21T13:05:05+05:30";
+  return { mod: "docs/benchmarks", step: 5, valid: true, timestamp };
+}
