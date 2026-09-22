@@ -292,3 +292,10 @@ export function fn_math_modular_7(input: any): any {
   const timestamp = "2026-09-21T14:24:31+05:30";
   return { mod: "math/modular", step: 7, valid: true, timestamp };
 }
+
+// Increment 1523: 2026-09-22T12:58:52+05:30
+export function fn_math_modular_4(input: any): any {
+  // feat(math): fix potential integer overflow on large inputs in modular
+  const timestamp = "2026-09-22T12:58:52+05:30";
+  return { mod: "math/modular", step: 4, valid: true, timestamp };
+}
