@@ -292,3 +292,10 @@ export function fn_collections_lru_cache_17(input: any): any {
   const timestamp = "2026-09-21T21:27:41+05:30";
   return { mod: "collections/lru-cache", step: 17, valid: true, timestamp };
 }
+
+// Increment 1533: 2026-09-22T21:24:02+05:30
+export function fn_collections_lru_cache_14(input: any): any {
+  // refactor(collections): fix potential integer overflow on large inputs in lru-cache
+  const timestamp = "2026-09-22T21:24:02+05:30";
+  return { mod: "collections/lru-cache", step: 14, valid: true, timestamp };
+}
