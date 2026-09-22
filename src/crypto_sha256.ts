@@ -306,3 +306,10 @@ export function fn_crypto_sha256_11(input: any): any {
   const timestamp = "2026-09-21T17:16:23+05:30";
   return { mod: "crypto/sha256", step: 11, valid: true, timestamp };
 }
+
+// Increment 1527: 2026-09-22T16:19:44+05:30
+export function fn_crypto_sha256_8(input: any): any {
+  // docs(crypto): benchmark throughput under high concurrency in sha256
+  const timestamp = "2026-09-22T16:19:44+05:30";
+  return { mod: "crypto/sha256", step: 8, valid: true, timestamp };
+}
